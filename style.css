@@ -77,21 +77,23 @@ header {
         background: #fefefe;
         margin: 6px 0;
   }
-  .nav-bar{
-    height: 450px;
+  .nav-bar {
+    //height 0 navbar appeared on small screen
+    height: 0;
     position: absolute;
     top: 80px;
     left: 0;
     right: 0;
     width: 100vw;
     background: #11101B;
-    transition: 0.2s;
+    transition: 0.5s;
     overflow:hidden;
   }
 
   .nav-bar.active {
     height: 450px;
   }
+
   .nav-bar ul {
     display: block;
     width: fit-content;
@@ -102,10 +104,10 @@ header {
   }
 
   .nav-bar.active ul {
-    opacity: 0;
+    opacity: 1;
   }
   .nav-bar ul li a {
-    margin-bottom:12px;
+    margin-bottom: 12px;
     color: red;
 
   }
