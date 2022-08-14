@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #f1F1Ed;
+  background: #f1f1ed;
   font-family: futura-pt;
   font-weight: 400;
   font-style: normal;
@@ -21,12 +21,12 @@ body {
 header {
   width: 100%;
   height: 80px;
-  background: #f1F1Ed;
+  background: #f1f1ed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
-  box-shadow: 0px 3px 5px #FEBEB0;
+  box-shadow: 0px 3px 5px #febeb0;
 }
 
 .logo {
@@ -34,6 +34,16 @@ header {
   font-weight: bold;
   color: #000;
 }
+
+.switch_light {
+  border: 2px solid #202124;
+  background-color: transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 6px;
+  transition: color 0.2s ease-in, border 0.2s ease-in;
+}
+
 .hamburger {
   display: none;
 }
@@ -53,13 +63,13 @@ header {
 }
 
 .nav-bar ul li a:hover {
-  color: #F7F1ED;
-  background: #2F365E;
+  color: #f7f1ed;
+  background: #2f365e;
 }
 
 .nav-bar ul li a.active {
   color: #11101b;
-  border-color: #2F365E;
+  border-color: #2f365e;
   /*background: #fefefe;*/
 }
 
@@ -70,9 +80,10 @@ header {
 }
 
 @media only screen and (max-width: 1100px) {
-  header {
+  header, main {
     padding: 0 30px;
   }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -124,6 +135,66 @@ header {
 
 /*//////body///////*/
 
+.techno_model_graphic_name, .techno_model_front_name {
+  font-size: 2em;
+  margin:10px 0;
+}
+
+.top-post-description {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 100%;
+}
+
+.description,
+.technology {
+  flex-basis: 49%;
+  margin-right: 2%;
+  margin-top: 4%;
+  background-color: transparent;
+  border: 2px solid #febeb0;
+  box-shadow: 0px 2px 3px #848484;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.25s ease-in;
+}
+
+
+.description_top_id {
+  width : 45%;
+  border-radius: 193px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.techno_model_graphic {
+  margin-bottom : 30px;
+}
+
+.logiciel {
+  width: 10%;
+  margin : 5px;
+}
+
+.fa-brands {
+  margin : 5px;
+}
+
+.bottom-post-gallery {
+  flex-basis: 49%;
+  margin-right: 1%;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 2px solid #febeb0;
+  box-shadow: 0px 2px 3px #848484;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.25s ease-in;
+
+}
+
+
+
 /*////////media links//////*/
 
 .social-links,
@@ -153,7 +224,7 @@ header {
   bottom: 0;
   text-align: center;
   left: 41%;
-  background-color: #FEBEB0;
+  background-color: #febeb0;
   border-radius: 0.6rem 0.6rem 0 0;
   padding: 0.8rem 0.8rem;
   transition: all 0.5s ease-in-out;
@@ -168,5 +239,5 @@ a#floating-btn {
 /*/////////////footer////////////*/
 .page_divider {
   border-bottom: 1px solid #000;
-  margin-bottom : 20px;
+  margin-bottom: 20px;
 }
