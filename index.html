@@ -21,7 +21,9 @@
     <title>Visual for All</title>
 
     <!--styles CSS-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
+
 </head>
 
 <!--Corps de la page-->
@@ -31,16 +33,13 @@
         <!--Responsibe Hamburger Navbar-->
         <div class="logo">Visual for All</div>
 
-        <!--dark mode -->
-        <button class="switch_light">
-            <i class="fas fa-lightbulb fa-lg"></i>
-          </button>
-
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
+            <div class="line"></div>
         </div>
+        <!-----------Navbar items-------->
         <nav class="nav-bar">
             <ul>
                 <li>
@@ -57,47 +56,31 @@
                 </li>
             </ul>
         </nav>
+
+        <!---------dark mode -------------->
+        <button class="switch_light">
+            <i class="fas fa-lightbulb fa-lg"></i>
+        </button>
     </header>
 
-    <main id="contenu" class="main">
-        <div class="top-post-description">
-            <section class="description">
-                <img class="description_top_id" src="./assets/id.jpg" />
-                <h1 class="description_top_name">Elodie Nébulot</h1>
-                <h2 class="description_top_tagline">Designeuse Graphique </br> Développeuse Front-End Junior</h2>
-                <p class="description_short_post"></p>
-            </section>
+    <!---------------------------MAIN----------------------------------->
 
+    <main id="contenu" class="main navbar-bg">
 
-            <section class="technology">
-                <div class="techno_model_graphic">
-                    <h2 class="techno_model_graphic_name">Logiciels Graphique</h2>
-                    <div class="techno_model_icone">
-                        <img class="logiciel" src="./assets/photoshop.png">
-                        <img class="logiciel" src="./assets/inDesign.png">
-                        <img class="logiciel" src="./assets/illustrator.png">
-                        <img class="logiciel" src="./assets/procreate.png">
-                        <!--icones design-->
-                    </div>
-                </div>
-                <div class="techno_model_front">
-                    <h2 class="techno_model_front_name">Stacks</h2>
-                    <div class="techno_model_icone">
-                        <!--icones Front-end-->
-                        <i class="fa-brands fa-html5 fa-4x"></i>
-                        <i class="fa-brands fa-css3-alt fa-4x"></i>
-                        <i class="fa-brands fa-js fa-4x"></i>
-                        <i class="fa-brands fa-sass fa-4x"></i>
-                        <i class="fa-brands fa-git-alt fa-4x"></i>
-                        <i class="fa-brands fa-react fa-4x"></i>
-                    </div>
-                </div>
+        <div class="top-post-hello repeat">
+            <div class="repeating-linear">
+                <img class="description_top_id one" src="./assets/id.jpg" />
+            </div>
 
-            </section>
+            <h1 class="top-post-title">H E L L O</h1>
+
+            <div class="top-post-info">
+            <h2 class="name-design">Elodie Nébulot</h2>
+            <p class="post-design" >web designer freelance </br> developper front-end</p>
+            </div>
         </div>
-
         <div class="bottom-post-gallery">
-            
+
 
         </div>
 
@@ -109,7 +92,7 @@
     <div class="footer">
         <div class="page_divider"></div>
         <div class="info">
-            <p class="">©2022 ELODIE NEBULOT . ALL RIGHTS RESERVED.</p>
+            <p class="info_rights">©2022 ELODIE NEBULOT . ALL RIGHTS RESERVED.</p>
         </div>
         <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
             <a class="sqs-svg-icon--wrapper email" target="_blank"><i class="fa-solid fa-at"></i>

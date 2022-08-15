@@ -17,101 +17,128 @@
 
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
+    
+    <title>Visual for All</title>
 
-    <title>V4A_A_propos</title>
-    
-    
     <!--styles CSS-->
-    <link rel="stylesheet" href="../style.css" />
-    
+    <link rel ="stylesheet" href ="../css/style.css" />
+    <link rel="stylesheet" href="../css/cv.css" />
+    <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
+
 </head>
 
 <!--Corps de la page-->
 
 <body>
-
     <header>
         <!--Responsibe Hamburger Navbar-->
         <div class="logo">Visual for All</div>
+
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
+            <div class="line"></div>
         </div>
+        <!-----------Navbar items-------->
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="" class="active">Acceuil</a>
+                    <a href="./index.html" class="active">Acceuil</a>
                 </li>
                 <li>
-                    <a href="">Portfolio</a>
+                    <a href="./windows/portfolio.html">Portfolio</a>
                 </li>
                 <li>
-                    <a href="">À propos</a>
+                    <a href="./windows/cv.html">À propos</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="./windows/contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
+
+         <!---------dark mode -------------->
+         <button class="switch_light">
+            <i class="fas fa-lightbulb fa-lg"></i>
+          </button>
     </header>
 
+    <!---------------------------MAIN----------------------------------->
+
     <main id="contenu" class="main">
-
-        <!-----------------------A Propos-------------------------->
-
-        <h1>À propos</h1>
-<h4>
-    Je suis
-
-
-
+        <div class="top-post-description">
+            <section class="description">
+                <img class="description_top_id one" src="./assets/id.jpg" />
+                <h1 class="description_top_name two">Elodie Nébulot</h1>
+                <h2 class="description_top_tagline three">Designeuse Graphique </br> Développeuse Front-End Junior</h2>
+                <p class="description_short_post four"></p>
+            </section>
 
 
+            <section class="technology">
+                <div class="techno_model_graphic">
+                    <h2 class="techno_model_graphic_name">Logiciels Graphique</h2>
+                    <div class="techno_model_icone">
+                        <img class="logiciel" src="./assets/photoshop.png">
+                        <img class="logiciel" src="./assets/inDesign.png">
+                        <img class="logiciel" src="./assets/illustrator.png">
+                        <img class="logiciel" src="./assets/procreate.png">
+                        <!--icones design-->
+                    </div>
+                </div>
+                <div class="techno_model_front">
+                    <h2 class="techno_model_front_name">Stacks</h2>
+                    <div class="techno_model_icone">
+                        <!--icones Front-end-->
+                        <i class="fa-brands fa-html5 fa-4x"></i>
+                        <i class="fa-brands fa-css3-alt fa-4x"></i>
+                        <i class="fa-brands fa-js fa-4x"></i>
+                        <i class="fa-brands fa-sass fa-4x"></i>
+                        <i class="fa-brands fa-git-alt fa-4x"></i>
+                        <i class="fa-brands fa-react fa-4x"></i>
+                    </div>
+                </div>
 
-</h4>
-<div class="contenu">
-    <p class="paraf1"></p>
-    <p class="paraf2"></p>
-    <p class="paraf3"></p>
-</div>
+            </section>
+        </div>
 
-    
-        
+        <div class="bottom-post-gallery">
+            
+
+        </div>
+
+
+
+
     </main>
 
     <div class="footer">
-    <div class="info">
-        <p class="">©2022 ELODIE NEBULOT . ALL RIGHTS RESERVED.</p>
-    </div>
-    <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
-        <a class="sqs-svg-icon--wrapper email" target="_blank"><i class="fa-solid fa-at"></i>
-        </a>
+        <div class="page_divider"></div>
+        <div class="info">
+            <p class="info_rights">©2022 ELODIE NEBULOT . ALL RIGHTS RESERVED.</p>
+        </div>
+        <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
+            <a class="sqs-svg-icon--wrapper email" target="_blank"><i class="fa-solid fa-at"></i>
+            </a>
 
-        <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
-            target="_blank"><i class="fa-brands fa-instagram"></i>
-        </a>
+            <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                target="_blank"><i class="fa-brands fa-instagram"></i>
+            </a>
 
-        <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-            target="_blank"><i class="fa-brands fa-linkedin"></i>
-        </a>
+            <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
+                target="_blank"><i class="fa-brands fa-linkedin"></i>
+            </a>
 
-        <a class="sqs-svg-icon--wrapper github" href="https://github.com/nebulot" target="_blank"><i
-                class="fa-brands fa-github"></i>
-        </a>
-    </div>
-    <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au contenu</a>
+            <a class="sqs-svg-icon--wrapper github" href="https://github.com/nebulot" target="_blank"><i
+                    class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au contenu</a>
 
-    <script src="../navbar.js"></script>
+        <script src="navbar.js"></script>
 
 </body>
 
 
 </html>
-
-
-
-
-
-
-
