@@ -33,9 +33,9 @@ header {
 .logo {
   font-size: 25px;
   font-weight: bold;
-  color: #f7f1ed;
-  margin-left: 50px;
-  //font-shadow: 8px 6px 12px #848484;
+  color: #2f365f;
+  margin-left: 93px;
+  text-shadow: 0.1em 0.1em #f1f1ed;
 }
 
 .switch_light {
@@ -54,7 +54,7 @@ header {
 }
 
 .nav-bar {
-  margin-left: 120px;
+  margin-left: 37px;
 }
 .nav-bar ul {
   display: flex;
@@ -87,16 +87,21 @@ header {
 }
 
 @media only screen and (max-width: 1320px) {
-  header,
+  header {
+    padding: 5px 50px;
+  }
   main {
-    padding: 0 50px;
+    padding: 30px 50px;
+
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  header,
+  header {
+    padding: 5px 30px;
+  }
   main {
-    padding: 0 30px;
+    padding: 15px 30px;
   }
 }
 
@@ -197,6 +202,9 @@ header {
   right: 128px;
   top: 175px;
   font-size: 134px;
+  color : #0ae9bc;
+  text-shadow: 0.1em 0.1em #2f365f;
+
 }
 
 .top-post-hello {
@@ -236,8 +244,9 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 200px);
   grid-template-areas: repeat(4, 200px);
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
+  padding: 50px 0;
 }
 
 .gallery_card {
@@ -248,6 +257,7 @@ header {
 .design {
   display: flex;
   width: -webkit-fill-available;
+  padding: 10px;
 }
 
 .box1 {
@@ -308,6 +318,7 @@ header {
 .info {
   display: flex;
   justify-content: center;
+  margin: 30px 0;
 }
 
 .sqs-svg-icon--wrapper {
