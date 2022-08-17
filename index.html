@@ -23,13 +23,14 @@
     <!--styles CSS-->
     <link rel="stylesheet" href="./css/style.css" />
     <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/roseblue" rel="stylesheet">
 
 </head>
 
 <!--Corps de la page-->
 
 <body>
-    <header>
+    <header id="contenu">
         <!--Responsibe Hamburger Navbar-->
         <div class="logo">Visual for All</div>
 
@@ -40,14 +41,24 @@
             <div class="line"></div>
         </div>
         <!-----------Navbar items-------->
-        <nav class="nav-bar">
+        <div class="nav-bar">
             <ul>
                 <li>
                     <a href="index.html" class="active">Acceuil</a>
                 </li>
-                <li>
-                    <a href="./windows/portfolio.html">Portfolio</a>
-                </li>
+
+                <div class="portfolio">
+                    <button class="dropbtn">Portfolio
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Design Graphique</a>
+                        <a href="#">Création de site</a>
+                        <a href="#">Travaux Personnels</a>
+                    </div>
+                </div>
+
+                
                 <li>
                     <a href="./windows/cv.html">À propos</a>
                 </li>
@@ -55,7 +66,7 @@
                     <a href="./windows/contact.html">Contact</a>
                 </li>
             </ul>
-        </nav>
+        </div>
 
         <!---------dark mode -------------->
         <button class="switch_light">
@@ -74,28 +85,30 @@
 
             <h1 class="top-post-title">H E L L O</h1>
             <div class="repeating-linear2"></div>
+            <div class="hexagone"></div>
             <div class="top-post-info">
-                <h2 class="name-design">Elodie Nébulot</h2>
-                <p class="post-design"><b>Designer Graphique</b> <em>Freelance</em> </br> <b>Developper Front-End</b>
-                </p>
+                <h2 style="letter-spacing:6px;" class="name-design">Je suis Elodie,</h2>
+                <p style="letter-spacing:6px;" class="post-design"><b>Designer Graphique</b> en <em>Freelance</em> </br>
+                    et <b>Developper Front-End</b> junior,</br>
+                    basée à <em>Lyon</em>.</p>
             </div>
-            
+
         </section>
 
         <section class="bottom-post-gallery">
             <div class="gallery_card_portfolio">
-                <div class="gallery_card box1"></div>
-                <div class="gallery_card box2"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
+                <div class="gallery_card box1"><img class="design" src="./assets/acceuil/gameon.jpg" /></div>
+                <div class="gallery_card box2"><img class="design" src="./assets/acceuil/affichefilm.jpg" /></div>
                 <div class="gallery_card box3"><p>PORTFOLIO</p></div>
-                <div class="gallery_card box4"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
-                <div class="gallery_card box5"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
-                <div class="gallery_card box6">image design 4</div>
-                <div class="gallery_card box7"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
+                <div class="gallery_card box4"><img class="design" src="./assets/acceuil/fete-de-la-cuisine-5.jpg" /></div>
+                <div class="gallery_card box5"><img class="design" src="./assets/acceuil/p3.gif" /></div>
+                <div class="gallery_card box6"><img class="design" src="./assets/acceuil/ohmyfood.png" /></div>
+                <div class="gallery_card box7"><img class="design" src="./assets/acceuil/couverturelivre.jpg" /></div>
                 <div class="gallery_card box8">apercu site internet 3</div>
                 <div class="gallery_card box9"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
-                <div class="gallery_card box10">image design 6</div>
-                <div class="gallery_card box11"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
-                <div class="gallery_card box12"><img class="design" src="./assets/acceuil/insta 2.jpg" /></div>
+                <div class="gallery_card box10"><img class="design" src="./assets/acceuil/en.jpg" /></div>
+                <div class="gallery_card box11"><img class="design" src="./assets/acceuil/Flyer Sharp.jpg" /></div>
+                <div class="gallery_card box12"><img class="design" src="./assets/acceuil/fisheye.png" /></div>
             </div>
         </section>
 
@@ -108,25 +121,31 @@
         <div class="page_divider"></div>
 
         <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
-            <span class="" target="_blank"><a href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
-                        </a>
+            <span style="letter-spacing:6px;" target="_blank"><a class="mail"
+                    href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
+            </span>
 
-            <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
-                target="_blank"><i class="fa-brands fa-instagram"></i>
-            </a>
+            <div clas="social_icon">
 
-            <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-                target="_blank"><i class="fa-brands fa-linkedin"></i>
-            </a>
+                <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                    target="_blank"><i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
+                    target="_blank"><i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
         </div>
 
-        
+
 
         <div class="info">
-            <p class="info_rights">©2022 ELODIE NEBULOT . ALL RIGHTS RESERVED.</p>
+            <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
+                    All</strong></p>
+            <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
         </div>
 
-        <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au contenu</a>
+        <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
 
         <script src="navbar.js"></script>
 
