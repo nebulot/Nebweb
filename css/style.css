@@ -449,7 +449,29 @@ header {
 
 /*////////media links//////*/
 
-.social-links,
+.social-links {
+  display: flex;
+  margin: 30px 10px;
+  align-items: center;
+  justify-content : center;
+}
+
+.mail-bar {
+  margin-right : 30px;
+}
+
+
+.barre {
+  font-size : 20px;
+  color : #f7f1ed;
+  letter-spacing : 10px;
+}
+
+.social-icon {
+  margin-left : 30px;
+}
+
+
 .info {
   flex-direction: column;
   display: flex;
@@ -507,12 +529,15 @@ a#floating-btn {
 .info_rights {
   color: #f7f1ed;
   font-size: 16px;
+  text-transform : none;
 }
 
 a.mail {
   text-decoration: none;
+  text-transform : none;
   color: #f7f1ed;
   cursor: pointer;
+  font-size : 20px;
 }
 .fa-solid {
   margin-top: 4px;
