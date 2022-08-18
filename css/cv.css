@@ -31,11 +31,17 @@
 
 .description_experience {
   font-family : "roseblue", sans serif ; 
+  color : #3D5A5B;
   text-transform: none;
   font-size : 18px;
   letter-spacing : 3px;
   text-align : center;
-  
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: linear-gradient(45deg, #F7f1ed 25%, transparent 25%, transparent 75%, #F7f1ed 75%), linear-gradient(45deg, #F7f1ed 25%, transparent 25%, transparent 75%,#F7f1ed 75%);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  box-shadow: 8px 6px 12px #848484;  
 }
 
   .one {
@@ -49,9 +55,18 @@
   }
 
 
-.description,
+.description{
+  margin-right: 2%;
+  margin-top: 4%;
+  transition: all 0.25s ease-in;
+}
+.inspi_loisir {
+  display : flex;
+}
+
 .technology,
-.inspiration {
+.inspiration,
+.loisir {
   margin-right: 2%;
   margin-top: 4%;
   background-color: transparent;
