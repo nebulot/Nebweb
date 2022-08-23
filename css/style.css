@@ -9,6 +9,7 @@
 :root {
   --main-radius : 5px;
   --main-padding : 5px;
+  --body-color: hsl(var(--second-hue),48%,8%);
 }
 
 body {
