@@ -20,7 +20,7 @@
 
     <title>Visual for All</title>
 
-    <!--styles CSS + cdnfonts-->
+    <!--styles CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/cv.css" />
     <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
@@ -30,51 +30,61 @@
 
 <!--Corps de la page-->
 
-<body>
-    <header id="contenu">
-        <!--Responsibe Hamburger Navbar-->
-        <div class="logo">Visual for All</div>
 
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <!-----------Navbar items-------->
-        <div class="nav-bar">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Acceuil</a>
-                </li>
 
-                <div class="portfolio">
-                    <button class="dropbtn">Portfolio
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Design Graphique</a>
-                        <a href="#">Création de site</a>
-                        <a href="#">Travaux Personnels</a>
+<body class="container">
+
+    <nav>
+        <section class="header_logo">
+            <img class="logo-design" src="../assets/acceuil/LOGO-SITE.png" />
+            <p class="logo_brand">Visual for All</p>
+
+            <!--Responsibe Hamburger Navbar-->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+
+            <!-----------Navbar items-------->
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">Acceuil</a>
+                    </li>
+
+                    <div class="portfolio">
+                        <button class="dropbtn">Portfolio
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Design Graphique</a>
+                            <a href="#">Création de site</a>
+                            <a href="#">Travaux Personnels</a>
+                        </div>
                     </div>
-                </div>
 
 
-                <li>
-                    <a href="./windows/cv.html">À propos</a>
-                </li>
-                <li>
-                    <a href="./windows/contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+                    <li>
+                        <a href="./windows/cv.html">À propos</a>
+                    </li>
+                    <li>
+                        <a href="./windows/contact.html">Contact</a>
+                    </li>
+                </ul>
 
-        <!---------dark mode -------------->
-        <button class="switch_light">
-            <i class="fas fa-lightbulb fa-lg"></i>
-        </button>
-    </header>
+            </div>
 
+
+            <!---------dark mode -------------->
+            <button class="switch_light">
+                <i class="fas fa-lightbulb fa-lg"></i>
+            </button>
+        </section>
+
+    </nav>
     <!---------------------------MAIN----------------------------------->
 
     <main id="contenu" class="main navbar-bg">
@@ -83,68 +93,72 @@
                 <img class="description_image one" src="../assets/cv/myself.png" />
                 <p class="description_experience two"><b>
                         Je suis Designer Graphique, Illustratice freelance basée à Lyon<br><br>
-                    Après 14 années dans différents postes évolutifs dans la vente de textiles et accessoires, j'ai
-                    choisie
-                    de retourner dans le monde de l'art et de la culture en créant ma propre entreprise freelance
-                    "Visual For All".<br><br>
-                    Mon intêret pour la transmition, la communication et le numérique, m'a poussée à faire une
-                    reconversion professionnelle en tant que Developpeur Front-End, pour la réalisation de site
-                    internet, de blog et d'application.<br><br>
-                    Mon Leitmotiv : combiner un visuel moderne, responsive et accessible pour TOUS.</b>
+                        Après 14 années dans différents postes évolutifs dans la vente de textiles et accessoires, j'ai
+                        choisie
+                        de retourner dans le monde de l'art et de la culture en créant ma propre entreprise freelance
+                        "Visual For All".<br><br>
+                        Mon intêret pour la transmition, la communication et le numérique, m'a poussée à faire une
+                        reconversion professionnelle en tant que Developpeur Front-End, pour la réalisation de site
+                        internet, de blog et d'application.<br><br>
+                        Mon Leitmotiv : combiner un visuel moderne, responsive et accessible pour TOUS.</b>
                 </p>
             </section>
-
-
-            <section class="technology">
-                <h2>Mes Outils</h2>
-                <div class="techno_model_graphic">
-                    <h3 class="techno_model_graphic_name">Logiciels Graphique</h3>
-                    <div class="techno_model_icone">
-                        <img class="logiciel" src="../assets/cv/photoshop.png" />
-                        <img class="logiciel" src="../assets/cv/inDesign.png" />
-                        <img class="logiciel" src="../assets/cv/illustrator.png" />
-                        <img class="logiciel" src="../assets/cv/procreate.png" />
-                        <!--icones design-->
-                    </div>
-                </div>
-                <div class="techno_model_front">
-                    <h3 class="techno_model_front_name">Stacks</h3>
-                    <div class="techno_model_icone">
-                        <!--icones Front-end-->
-                        <i class="fa-brands fa-html5 fa-4x"></i>
-                        <i class="fa-brands fa-css3-alt fa-4x"></i>
-                        <i class="fa-brands fa-js fa-4x"></i>
-                        <i class="fa-brands fa-sass fa-4x"></i>
-                        <i class="fa-brands fa-git-alt fa-4x"></i>
-                        <i class="fa-brands fa-react fa-4x"></i>
-                    </div>
-                </div>
-            </section>
-
-            <section class="inspi_loisir">
-
-                <div class="inspiration">
-                <h2>Mes inspirations </h2>
-                </div>
-                <div class="loisir">
-                    <h2>Mes Loisirs </h2>
-                </div>
-
-            </section>
-
-
-        </div>
     </main>
+
+    <div id="sidebar">
+        <div class="repeating-linear"></div>
+    </div>
+
+    <div class="content1">
+        <h2>Mes Outils</h2>
+        <div class="techno_model_graphic">
+            <h3 class="techno_model_graphic_name">Logiciels Graphique</h3>
+            <div class="techno_model_icone">
+                <img class="logiciel" src="../assets/cv/photoshop.png" />
+                <img class="logiciel" src="../assets/cv/inDesign.png" />
+                <img class="logiciel" src="../assets/cv/illustrator.png" />
+                <img class="logiciel" src="../assets/cv/procreate.png" />
+                <!--icones design-->
+            </div>
+        </div>
+    </div>
+
+    <div class="content3">
+        <div class="techno_model_front">
+            <h3 class="techno_model_front_name">Stacks</h3>
+            <div class="techno_model_icone">
+                <!--icones Front-end-->
+                <i class="fa-brands fa-html5 fa-4x"></i>
+                <i class="fa-brands fa-css3-alt fa-4x"></i>
+                <i class="fa-brands fa-js fa-4x"></i>
+                <i class="fa-brands fa-sass fa-4x"></i>
+                <i class="fa-brands fa-git-alt fa-4x"></i>
+                <i class="fa-brands fa-react fa-4x"></i>
+            </div>
+        </div>
+    </div>
+
+    <section class="inspi_loisir">
+
+        <div class="inspiration">
+            <h2>Mes inspirations </h2>
+        </div>
+        <div class="loisir">
+            <h2>Mes Loisirs </h2>
+        </div>
+
+    </section>
+       </main>
 
 
     <!----------FOOTER bas de page commun----------------------------->
 
-    <div class="footer">
+    <footer class="footer">
         <div class="page_divider"></div>
 
         <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
             <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
-                    href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a> 
+                    href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
             </span>
 
             <p class="barre">||</p>
@@ -156,13 +170,12 @@
                     target="_blank"><i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-                    target="_blank"><i class="fa-brands fa-linkedin"></i>
+                <a class="sqs-svg-icon--wrapper linkedin"
+                    href="https://www.linkedin.com/in/nebulot-elodie-65012815a" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
         </div>
-
-
 
         <div class="info">
             <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
@@ -170,7 +183,8 @@
             <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
         </div>
 
-        <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
+    </footer>
+    <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
 
 
         <!-------------------------SCRIPT JS ----------------------------------------->

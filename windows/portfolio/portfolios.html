@@ -20,9 +20,8 @@
 
     <title>Visual for All</title>
 
-    <!--styles CSS + cdnfonts-->
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/cv.css" />
+    <!--styles CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
     <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/roseblue" rel="stylesheet">
 
@@ -30,57 +29,66 @@
 
 <!--Corps de la page-->
 
-<body>
-    <header id="contenu">
-        <!--Responsibe Hamburger Navbar-->
-        <div class="logo">Visual for All</div>
 
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <!-----------Navbar items-------->
-        <div class="nav-bar">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Acceuil</a>
-                </li>
 
-                <div class="portfolio">
-                    <button class="dropbtn">Portfolio
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Design Graphique</a>
-                        <a href="#">Création de site</a>
-                        <a href="#">Travaux Personnels</a>
+<body class="container">
+
+    <nav>
+        <section class="header_logo">
+            <img class="logo-design" src="./assets/acceuil/LOGO-SITE.png" />
+            <p class="logo_brand">Visual for All</p>
+
+            <!--Responsibe Hamburger Navbar-->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+
+            <!-----------Navbar items-------->
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">Acceuil</a>
+                    </li>
+
+                    <div class="portfolio">
+                        <button class="dropbtn">Portfolio
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Design Graphique</a>
+                            <a href="#">Création de site</a>
+                            <a href="#">Travaux Personnels</a>
+                        </div>
                     </div>
-                </div>
 
 
-                <li>
-                    <a href="./windows/cv.html">À propos</a>
-                </li>
-                <li>
-                    <a href="./windows/contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+                    <li>
+                        <a href="./windows/cv.html">À propos</a>
+                    </li>
+                    <li>
+                        <a href="./windows/contact.html">Contact</a>
+                    </li>
+                </ul>
 
-        <!---------dark mode -------------->
-        <button class="switch_light">
-            <i class="fas fa-lightbulb fa-lg"></i>
-        </button>
-    </header>
+            </div>
 
-    <main id="contenu" class="main">
+
+            <!---------dark mode -------------->
+            <button class="switch_light">
+                <i class="fas fa-lightbulb fa-lg"></i>
+            </button>
+        </section>
+
+    </nav>
 
         <!-----------------------Formulaire de contact-------------------------->
 
         
-    
+    <main>
         
     </main>
 
