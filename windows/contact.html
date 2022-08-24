@@ -30,137 +30,163 @@
 
 <!--Corps de la page-->
 
-<body class="container">
-
-    <nav>
-        <section class="header_logo">
-            <img class="logo-design" src="../assets/acceuil/LOGO-SITE.png" />
-            <p class="logo_brand">Visual for All</p>
-
-            <!--Responsibe Hamburger Navbar-->
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-
-
-            <!-----------Navbar items-------->
-            <div class="nav-bar">
-                <ul>
-                    <li>
-                        <a href="../index.html">Acceuil</a>
-                    </li>
-
-                    <div class="portfolio">
-                        <button class="dropbtn">Portfolio
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Design Graphique</a>
-                            <a href="#">Création de site</a>
-                            <a href="#">Travaux Personnels</a>
-                        </div>
-                    </div>
-
-
-                    <li>
-                        <a href="cv.html">À propos</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="active">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-
-
-            <!---------dark mode -------------->
-            <button class="switch_light">
-                <i class="fas fa-lightbulb fa-lg"></i>
-            </button>
-        </section>
-
-    </nav>
-
-    <main id="contenu" class="main">
-        <div class="formulaire">
-            <h3 class="form-title" style="letter-spacing:6px;"> - Expliquez moi votre Projet -</h3>
-            <form class="contact_form" method="post" name="contact">
-                
-                <div class="contact_form-container">
-                    <label class="contact_form-tag" for="nom">Nom</label>
-                    <input class="contact_form-input" type="text" name="nom" placeholder="Votre nom" />
-                </div>
-
-                <div class="contact_form-container">
-                    <label class="contact_form-tag" for="email">Email</label>
-                    <imput class="contact_form-input" type="email" name="email" placeholder="Votre email" />
-                </div>
-
-                <div class="contact_form-container contact-area">
-                    <label class="contact_form-tag tag_projet" for="texte">Projet</label>
-                    <textarea id="" class="contact_form-input" name="texte" cols="30" rows="10" placeholder="Votre projet"></textarea>
-                </div>
-                
-                <button class="button" style="color:white;" type="submit"><b>Envoyer</b></button>
-            </form>
+<body>
+    <div class="accueil">
+        <div class="loader ">
+            <span class="letter">C</span>
+            <span class="letter">H</span>
+            <span class="letter">A</span>
+            <span class="letter">R</span>
+            <span class="letter">G</span>
+            <span class="letter">E</span>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+            <span class="letter">N</span>
+            <span class="letter">T</span>
         </div>
-    </main>
 
-    <!-----------------------Formulaire de contact-------------------------->
-
-    <div id="sidebar">
-        <h1 class="top-post-sidebar">H e y !</h1>
-        <p class ="top-post_bottom" style="letter-spacing:6px;">Pour toute demande, informations supplémentaires et/ou devis<br>Ecrivez-moi :)</p> 
+        <spinning-dots class="dots large"></spinning-dots>
     </div>
 
-    <div id="content1">linkedin</div>
-    <div id="content2">instagram</div>
-    <div id="content3"></div>
+    <div class="container" id="contenu">
 
 
+        <nav>
+            <section class="header_logo">
+                <img class="logo-design" src="../assets/acceuil/LOGO-SITE.png" />
+                <p class="logo_brand">Visual for All</p>
+
+                <!--Responsibe Hamburger Navbar-->
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
 
 
-    <!----------FOOTER bas de page commun----------------------------->
+                <!-----------Navbar items-------->
+                <div class="nav-bar">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Acceuil</a>
+                        </li>
 
-    <footer class="footer">
-        <div class="page_divider"></div>
+                        <div class="portfolio">
+                            <button class="dropbtn">Portfolio
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Design Graphique</a>
+                                <a href="#">Création de site</a>
+                                <a href="#">Travaux Personnels</a>
+                            </div>
+                        </div>
 
-        <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
-            <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
-                    href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
-            </span>
 
-            <p class="barre">||</p>
+                        <li>
+                            <a href="cv.html">À propos</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="active">Contact</a>
+                        </li>
+                    </ul>
 
-            <div class="social_icon">
+                </div>
 
 
-                <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
-                    target="_blank"><i class="fa-brands fa-instagram"></i>
-                </a>
+                <!---------dark mode -------------->
+                <button class="switch_light">
+                    <i class="fas fa-lightbulb fa-lg"></i>
+                </button>
+            </section>
 
-                <a class="sqs-svg-icon--wrapper linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-                    target="_blank"><i class="fa-brands fa-linkedin"></i>
-                </a>
+        </nav>
+
+        <main class="main">
+            <div class="formulaire">
+                <h3 class="form-title" style="letter-spacing:6px;"> - Expliquez moi votre Projet -</h3>
+                <form class="contact_form" method="post" name="contact">
+
+                    <div class="contact_form-container">
+                        <label class="contact_form-tag" for="nom">Nom</label>
+                        <input class="contact_form-input" type="text" name="nom" placeholder="Votre nom" />
+                    </div>
+
+                    <div class="contact_form-container">
+                        <label class="contact_form-tag" for="email">Email</label>
+                        <imput class="contact_form-input" type="email" name="email" placeholder="Votre email" />
+                    </div>
+
+                    <div class="contact_form-container contact-area">
+                        <label class="contact_form-tag tag_projet" for="texte">Projet</label>
+                        <textarea id="" class="contact_form-input" name="texte" cols="30" rows="10"
+                            placeholder="Votre projet"></textarea>
+                    </div>
+
+                    <button class="button" style="color:white;" type="submit"><b>Envoyer</b></button>
+                </form>
             </div>
+        </main>
+
+        <!-----------------------Formulaire de contact-------------------------->
+
+        <div id="sidebar">
+            <h1 class="top-post-sidebar">H e y !</h1>
+            <p class="top-post_bottom" style="letter-spacing:6px;">Pour toute demande, informations supplémentaires
+                et/ou devis<br>Ecrivez-moi :)</p>
         </div>
 
-        <div class="info">
-            <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
-                    All</strong></p>
-            <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
-        </div>
+        <div id="content1">linkedin</div>
+        <div id="content2">instagram</div>
+        <div id="content3"></div>
 
-    </footer>
+
+
+
+        <!----------FOOTER bas de page commun----------------------------->
+
+        <footer class="footer">
+            <div class="page_divider"></div>
+
+            <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
+                <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
+                        href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
+                </span>
+
+                <p class="barre">||</p>
+
+                <div class="social_icon">
+
+
+                    <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                        target="_blank"><i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a class="sqs-svg-icon--wrapper linkedin"
+                        href="https://www.linkedin.com/in/nebulot-elodie-65012815a" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="info">
+                <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
+                        All</strong></p>
+                <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
+            </div>
+
+        </footer>
+    </div>
     <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
 
 
 
     <!-------------------------SCRIPT JS ----------------------------------------->
+    <!--loader element + spinner -->
+    <script src="/main.js" type="module" defer></script>
     <script src="/navbar.js"></script>
+    
 
 
 </body>
