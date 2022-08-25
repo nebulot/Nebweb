@@ -1,10 +1,12 @@
+
+/*///////////////////FORMULAIRE//////////////*/
 .form-title {
   margin-bottom: 2.5rem;
   text-align: center;
   font-size: 22px;
   line-height: 1.2em;
   margin-right: 22px;
-  color: #f1f1ed;
+  color: #f7f1ed;
   text-shadow: 0.1em 0.1em #2f365f;
 }
 
@@ -26,12 +28,12 @@
   padding: 0.25rem;
   position: absolute;
   bottom: 3.75rem;
-  color : #f1f1ed;
+  color: #f7f1ed;
 }
 
 .contact_form-input {
-  background: none;
-  border: 2px solid #f1f1ed;
+  background: #f7f1ed57  ;
+  border: 2px solid #f7f1ed;
   border-radius: 0.75rem;
   color: var(--text-color);
   height: 100%;
@@ -68,15 +70,45 @@
   margin: 110px 30px;
 }
 
-.button {
-  background : #3d5a5b ;
-  border-radius: 0.5rem;
-  padding: 0.75rem 1rem;
-  transition: 0.4s;
-  border-color: solid 1px  #f7f1ed ;
+/*///////////////////btn envoyer//////////////*/
+
+.button_link {
+  display: inline-block;
+  text-align: center;
+  background-color: #2f365f;
+  border-radius: 0.75rem;
+  text-decoration: none;
   cursor: pointer;
-  outline: none;
-  font-weight : 400;
-  box-shadow: 8px 6px 12px #f7f1ed;
-  margin-left : 50%;
+  margin-left : 30%;
+}
+
+/*utiliser transform ne fontionne pas sur element inline */
+.button_link .button_link-send {
+  display: inline-block;
+  background: #2f365f;
+  color: #f7f1ed;
+  border: 1px solid #f7f1ed;
+  padding: 18px;
+  border-radius: 0.75rem;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: transform 0.15s ease-out, color 0.15s ease-out,
+    background-color 0.15s ease-out;
+}
+
+.button_link:hover .button_link-send {
+  transform: translate(-6px, -6px);
+  color: #f7f1ed;
+  background: #0ae9bc;
+}
+/*///////////////////CONTENT //////////////*/
+#content1, #content3 {
+  
+}
+
+/*///////////////////FOOTER MODIF//////////////*/
+#socialLinks {
+  display : none;
 }

@@ -21,6 +21,8 @@ body {
   line-height: 1.6em;
   font-size: 12px;
   text-transform: capitalize;  
+  text-inline : center;
+  display-inline : center;
 }
 
 /* loader page and spinner */
@@ -31,10 +33,8 @@ body {
   background-position : center;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
-  background: linear-gradient(to right, #f7f1ed, #febeb0, #3d5a5b, #2f365f);
   width : 100%;
-  height : 90%;
+  height : 70%;
   position : absolute;
   margin : 15% 0;
 }
@@ -112,7 +112,7 @@ spinning-dots.large {
   transition: opacity 0.4s ease-out;
 }
 
-
+/*/////////////////container/////////////////////////*/
 
 .container {
   display: grid;
@@ -142,7 +142,6 @@ nav {
 .header_logo {
   display : flex;
   align-items: center;
-  
 }
 
 .logo-design {
@@ -151,7 +150,6 @@ nav {
   rotate: -90deg;
   margin-left: 10px;
   width: 160px;
-  
 }
 
 .logo_brand {
@@ -160,7 +158,6 @@ nav {
   color: #2f365f;
   text-shadow: 0.1em 0.1em #f1f1ed;
   margin: 30px;
-  
 }
 
 .hamburger {
@@ -178,7 +175,7 @@ nav {
 }
 
 .nav-bar ul li a {
-  display: block;
+  display: inline-block;
   color: #f7f1ed;
   font-size: 25px;
   padding: 10px 15px;
@@ -186,12 +183,15 @@ nav {
   transition: 0.2s;
   margin: 0 5px;
   text-decoration: none;
+  transition: transform 0.15s ease-out, color 0.15s ease-out,
+    background-color 0.15s ease-out;
 }
 
 .nav-bar ul li a:hover,
 .portfolio:hover .dropbtn {
+  transform: translate(-6px, -6px);
   color: #f7f1ed;
-  background: #2f365e;
+  background: #0ae9bc;
 }
 
 .nav-bar ul li a.active {
@@ -442,7 +442,6 @@ footer {
 }
 
 .footer {
-  background: linear-gradient(to right, #f7f1ed, #febeb0, #3d5a5b, #2f365f);
   text-transform: capitalize;
   font-family: "Roseblue", sans-serif;
 }
