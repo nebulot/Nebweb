@@ -1,4 +1,4 @@
-p, h2 {
+h2 {
   color: #3d5a5b;
 }
 
@@ -25,24 +25,17 @@ p, h2 {
 
 .repeating-linear3 {
   display : flex;
-  margin-left : 40px;
-  margin-top: 30px;
+  border-radius : 10px;
+  margin : 30px 50px ;
   height: 500px;
-  background: repeating-linear-gradient(
-    -45deg,
-    #3d5a5b,
-    #3d5a5b 5px,
-    transparent 5px,
-    transparent 15px
-  );
+  background: #f7f1ed ;
   box-shadow: 12px 12px 2px 1px #0ae9bc;
 }
 
 .description_experience {
   position : absolute;
   font-family: "roseblue", sans serif;
-  color: #f7f1ed;
-  text-shadow: 0.1em 0.05em #2f365f;
+  color:#2f365f;
   text-transform: none;
   font-size: 24px;
   letter-spacing: 5px;
@@ -61,11 +54,18 @@ p, h2 {
 
 .repeating-linear4 {
   display : flex;
-  margin-top: 60px;
+  margin-top: 40px;
   width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: repeating-linear-gradient( 45deg, #f7f1ed7a, #f7f1ed7a 5px, transparent 5px, transparent 10px );
+    background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    #3d5a5b 5px,
+    #2f365f 5px,
+    #3d5a5b 15px
+  );
+   
     
   }
 
@@ -73,7 +73,7 @@ p, h2 {
   width: 25%;
   position: absolute;
   top: 47%;
-  left: 65px;
+  left: 40px;
   
 }
 
@@ -94,16 +94,17 @@ h2 {
   padding: 20px;
 }
 
-.content1, .content3 {
+#content1, #content2, #content3 {
   background : #f7f1ed;
   box-shadow: 12px 12px 2px 1px #3d5a5b;
-  margin : 10px;
+  margin : 20px;
 }
-.content2, {
- border-color : #f7f1ed;
- box-shadow: 12px 12px 2px 1px #3d5a5b;
- margin : 10px;
+
+#content1 {
+  padding : 10px;
+  
 }
+
 
 .techno_model_graphic {
   grid-column: 1 / 2;
@@ -112,12 +113,16 @@ h2 {
   margin-bottom: 20px;
 }
 
+.loisir_tag {
+  color : #3d5a5b;
+}
+
 .techno_model_icone {
 margin-left : 20px;
 }
 
 .logiciel {
-  width: 20%;
+  width: 40%;
   margin: 5px;
 }
 

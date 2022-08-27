@@ -18,12 +18,15 @@
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
 
+
     <title>V4A/Acceuil</title>
 
     <!--styles CSS-->
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/roseblue" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
 
 </head>
 
@@ -50,12 +53,15 @@
         <spinning-dots class="dots large"></spinning-dots>
     </div>
 
+    <header><img class="logo-design" src="./assets/acceuil/iconeWebClean270822.png" /></header>
+
+    <div class="page_divider"></div>
+
     <div class="container" id="contenu">
 
         <nav>
             <section class="header_logo">
-                <img class="logo-design" src="./assets/acceuil/LOGO-SITE.png" />
-                <p class="logo_brand">Visual for All</p>
+                <img class="logo_brand" src="./assets/acceuil/brand220822.png" />
 
                 <!--Responsibe Hamburger Navbar-->
                 <div class="hamburger">
@@ -74,15 +80,28 @@
                         </li>
 
                         <div class="portfolio">
-                            <button class="dropbtn">Portfolio
+                            <button class="dropbtn">Design </br>Graphique
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Design Graphique</a>
-                                <a href="#">Création de site</a>
-                                <a href="#">Travaux Personnels</a>
+                                <a href="#">Identité Visuelle</a>
+                                <a href="#">Packaging</a>
+                                <a href="#">Services</a>
                             </div>
                         </div>
+
+                        <div class="portfolio">
+                            <button class="dropbtn">Création <br> de site
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Création de site</a>
+                                <a href="#">Création application</a>
+                                <a href="#">Services</a>
+                            </div>
+                        </div>
+
+
 
 
                         <li>
@@ -108,42 +127,28 @@
 
         <main class="main navbar-bg">
 
-            <h1 class="top-post-title">H E L L O</h1>
+            <h1 class="top-post-title">E L O D I E ,</h1>
             <div class="repeating-linear2"></div>
             <div class="hexagone"></div>
             <div class="top-post-info">
-                <h2 style="letter-spacing:6px;" class="name-design">Je suis Elodie,</h2>
+                <h2 class="name-design"><b>Designer Graphique</b> <em>Freelance</em></h2>
                 <div class="post-design">
-                    <p style="letter-spacing:6px;"><b>Designer Graphique</b></p>
-                    <p style="letter-spacing:6px;"><em>Freelance</em></p>
-                    <p style="letter-spacing:6px;">et <b>Developper Front-End</b> junior,</br></p>
-                    <p style="letter-spacing:6px;">basée à <em>Lyon</em>.</p>
+                    <p>et</br><b>Developper Front-End</b> <em>junior</em>,</br></p>
+                    <p>basée à <em>Lyon</em>.</p>
                 </div>
             </div>
+
+            <div class="page_divider"></div>   
 
         </main>
 
         <div id="sidebar">
             <div class="repeating-linear"></div>
             <img class="description_top_id one" src="./assets/acceuil/selfie bleu.jpg" />
-            
-            <div class="sidebar_letter">
-                <span class="maj">A</span>
-                <span class="maj">P</span>
-                <span class="maj">E</span>
-                <span class="maj">R</span>
-                <span class="maj">Ç</span>
-                <span class="maj">U</span>
-            </div>
-
-
-
         </div>
 
-
-
-
         <div id="content1">
+            <h2 class="gallery_aperçu">Derniers travaux</h2>
             <div class="gallery_card">
                 <img class="design" src="./assets/acceuil/gameon.jpg" />
             </div>
@@ -178,12 +183,10 @@
             </div>
         </div>
 
-
-
+             
         <!----------FOOTER bas de page commun----------------------------->
-        <footer class="footer">
-            <div class="page_divider"></div>
-
+        
+        <footer class="footer">            
             <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
                 <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
                         href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
@@ -206,14 +209,18 @@
             </div>
 
             <div class="info">
-                <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
-                        All</strong></p>
-                <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
+                <div class="info_rights">
+                    <h3 class="info_rights"><b>©2022 Elodie Nebulot</b></h3>
+                    <p class="info_aka">a.k.a</p>
+                    <h3><b>Visual For
+                            All</b></h3>
+                </div>
+                <p class="info_rights"><b>. ALL RIGHTS RESERVED .</b></p>
             </div>
 
         </footer>
     </div>
-    <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
+    <a id="floating-btn" href="#contenu" rel="Retour au Menu">Retour au Menu</a>
 
 
 

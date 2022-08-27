@@ -18,13 +18,16 @@
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
 
-    <title>V4A / APropos</title>
+
+    <title>V4A/Acceuil</title>
 
     <!--styles CSS-->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/cv.css" />
-    <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/roseblue" rel="stylesheet">
+    <link rel = "stylesheet" href="../css/cv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
 
 </head>
 
@@ -33,6 +36,7 @@
 
 
 <body>
+
     <div class="accueil">
         <div class="loader ">
             <span class="letter">C</span>
@@ -50,13 +54,15 @@
         <spinning-dots class="dots large"></spinning-dots>
     </div>
 
-    <div class="container" id="contenu">
+    <header><img class="logo-design" src="/assets/acceuil/iconeWebClean270822.png" /></header>
 
+    <div class="page_divider"></div>
+
+    <div class="container" id="contenu">
 
         <nav>
             <section class="header_logo">
-                <img class="logo-design" src="../assets/acceuil/LOGO-SITE.png" />
-                <p class="logo_brand">Visual for All</p>
+                <img class="logo_brand" src="/assets/acceuil/brand220822.png" />
 
                 <!--Responsibe Hamburger Navbar-->
                 <div class="hamburger">
@@ -71,26 +77,39 @@
                 <div class="nav-bar">
                     <ul>
                         <li>
-                            <a href="/index.html" class="active">Acceuil</a>
+                            <a href="../index.html" class="active">Acceuil</a>
                         </li>
 
                         <div class="portfolio">
-                            <button class="dropbtn">Portfolio
+                            <button class="dropbtn">Design </br>Graphique
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Design Graphique</a>
+                                <a href="#">Identité Visuelle</a>
+                                <a href="#">Packaging</a>
+                                <a href="#">Services</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio">
+                            <button class="dropbtn">Création <br> de site
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
                                 <a href="#">Création de site</a>
-                                <a href="#">Travaux Personnels</a>
+                                <a href="#">Création application</a>
+                                <a href="#">Services</a>
                             </div>
                         </div>
 
 
+
+
                         <li>
-                            <a href="./cv.html">À propos</a>
+                            <a href="../windows/cv.html">À propos</a>
                         </li>
                         <li>
-                            <a href="./contact.html">Contact</a>
+                            <a href="../windows/contact.html">Contact</a>
                         </li>
                     </ul>
 
@@ -128,37 +147,32 @@
         <div id="sidebar" class="sidebar">
             <div class="repeating-linear4"></div>
             <img class="description_image" src="../assets/cv/autoabstrait.png" />
+            
+        </div>
+
+        <div id="content1" class="content1">
             <div class="description_loisir">
                 <h2 class="loisir_item">Mes Loisirs</h2>
                 <p class="loisir_tag">Sport (courses, escalades, natation, vélo)</p>
                 <p class="loisir_tag">Loisirs Créatifs (construction, restauration, rénovation)</p>
                 <p class="loisir_tag">Tea Time</p>
-            </div>
-        </div>
-
-        <div class="content1">
+            </div>           
+        </div>        
+        
+        <div id= "content2" class="content2">
             <div class="techno_model_graphic">
                 <h2 class="techno_model_font">Logiciels Graphique</h2>
                 <div class="techno_model_icone">
                     <img class="logiciel" src="../assets/cv/photoshop.png" />
-                    <img class="logiciel" src="../assets/cv/inDesign.png" />
+                    <img class="logiciel" src="../assets/cv/indesign.png" />
                     <img class="logiciel" src="../assets/cv/illustrator.png" />
                     <img class="logiciel" src="../assets/cv/procreate.png" />
                     <!--icones design-->
                 </div>
             </div>
-        </div>
+        </div>       
 
-        <div class="content2">
-            <div class="techno_model_graph">
-                <h2 class="techno_model_font">Compétences</h2>
-                <div class="techno_model_icone">
-                    <!--icones Front-end-->
-                </div>
-            </div>
-        </div>
-
-        <div class="content3">
+        <div id="content3" class="content3">
             <div class="techno_model_front">
                 <h2 class="techno_model_font">Stacks</h2>
                 <div class="techno_model_icone">
@@ -179,9 +193,7 @@
 
         <!----------FOOTER bas de page commun----------------------------->
 
-        <footer class="footer">
-            <div class="page_divider"></div>
-
+        <footer class="footer">            
             <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
                 <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
                         href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
@@ -204,15 +216,18 @@
             </div>
 
             <div class="info">
-                <p style="letter-spacing:6px;" class="info_rights"><strong>©2022 Elodie Nebulot a.k.a Visual For
-                        All</strong></p>
-                <p style="letter-spacing:6px;" class="info_rights"><strong>. ALL RIGHTS RESERVED .</strong></p>
+                <div class="info_rights">
+                    <h3 class="info_rights"><b>©2022 Elodie Nebulot</b></h3>
+                    <p class="info_aka">a.k.a</p>
+                    <h3><b>Visual For
+                            All</b></h3>
+                </div>
+                <p class="info_rights"><b>. ALL RIGHTS RESERVED .</b></p>
             </div>
 
         </footer>
     </div>
-    <a id="floating-btn" href="#contenu" rel="Retour au contenu">Retour au Menu</a>
-
+    <a id="floating-btn" href="#contenu" rel="Retour au Menu">Retour au Menu</a> 
 
     <!-------------------------SCRIPT JS ----------------------------------------->
     <!--loader element + spinner -->
