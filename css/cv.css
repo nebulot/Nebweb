@@ -78,11 +78,17 @@ h2 {
 }
 
 .description_loisir {
-  background : #f7f1ed;
-  box-shadow: 12px 12px 2px 1px #3d5a5b;
   display: flex;
   flex-direction: column;
   margin-top : 60px;
+  margin : 10px;
+  align-items : center;
+}
+
+.loisir_tag {
+  padding : 5px 0;
+  font-size : 15px;
+  
 }
 
 
