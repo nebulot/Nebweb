@@ -6,9 +6,9 @@
     <meta charset="utf-8" />
     <!-- respecter la norme web internet explorer soit compatible-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!--balise meta viexport pour contrôler la mise en page sur mobile-->
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <!--balise meta viewport pour contrôler la mise en page sur mobile-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
     <meta name="description"
         content="bienvenue sur le site d'Elodie Nébulot, Designer Graphique et Développeur Front-End Junior." />
     <meta name="keywords"
@@ -18,19 +18,22 @@
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
 
-    <title>V4A / Contact</title>
 
-    <!--styles CSS + cdnfonts-->
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/contact.css" />
-    <link href="http://fonts.cdnfonts.com/css/dalton-marine" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/roseblue" rel="stylesheet">
+    <title>V4A/Acceuil</title>
+
+    <!--styles CSS-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
 
 </head>
 
 <!--Corps de la page-->
 
 <body>
+
     <div class="accueil">
         <div class="loader ">
             <span class="letter">C</span>
@@ -48,13 +51,25 @@
         <spinning-dots class="dots large"></spinning-dots>
     </div>
 
+
     <div class="container" id="contenu">
+
+        <header>
+            <div class="header_img">
+                <img class="logo-design" src="/assets/acceuil/iconeWebClean270822.png" />
+            </div>
+            <div class="header_dark">
+                <!---------dark mode -------------->
+                <button class="switch_light">
+                    <i class="fas fa-lightbulb fa-lg"></i>
+                </button>
+            </div>
+        </header>
 
 
         <nav>
             <section class="header_logo">
-                <img class="logo-design" src="../assets/acceuil/LOGO-SITE.png" />
-                <p class="logo_brand">Visual for All</p>
+                <img class="logo_brand" src="/assets/acceuil/brand220822.png" />
 
                 <!--Responsibe Hamburger Navbar-->
                 <div class="hamburger">
@@ -69,39 +84,50 @@
                 <div class="nav-bar">
                     <ul>
                         <li>
-                            <a href="../index.html">Acceuil</a>
+                            <a href="/index.html">Acceuil</a>
                         </li>
 
                         <div class="portfolio">
-                            <button class="dropbtn">Portfolio
+                            <button class="dropbtn">Design Graphique
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Design Graphique</a>
+                                <a href="/windows/portfolio/designGraphique.html">Identité Visuelle</a>
+                                <a href="#">Packaging</a>
+                                <a href="#">Services</a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio">
+                            <button class="dropbtn">Création de site
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
                                 <a href="#">Création de site</a>
-                                <a href="#">Travaux Personnels</a>
+                                <a href="#">Création application</a>
+                                <a href="#">Services</a>
                             </div>
                         </div>
 
 
+
+
                         <li>
-                            <a href="./cv.html">À propos</a>
+                            <a href="./windows/cv.html">À propos</a>
                         </li>
                         <li>
-                            <a href="./contact.html" class="active">Contact</a>
+                            <a href="/windows/contact.html" class="active">Contact</a>
                         </li>
                     </ul>
 
                 </div>
 
 
-                <!---------dark mode -------------->
-                <button class="switch_light">
-                    <i class="fas fa-lightbulb fa-lg"></i>
-                </button>
+
             </section>
 
         </nav>
+        <!--MAIN-->
 
         <main class="main">
             <div class="formulaire">
