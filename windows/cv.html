@@ -6,9 +6,9 @@
     <meta charset="utf-8" />
     <!-- respecter la norme web internet explorer soit compatible-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!--balise meta viexport pour contrôler la mise en page sur mobile-->
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <!--balise meta viewport pour contrôler la mise en page sur mobile-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="/assets/acceuil/favicon--1.png" />
     <meta name="description"
         content="bienvenue sur le site d'Elodie Nébulot, Designer Graphique et Développeur Front-End Junior." />
     <meta name="keywords"
@@ -19,11 +19,11 @@
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
 
 
-    <title>V4A/Acceuil</title>
+    <title>V4A||A_Propos</title>
 
     <!--styles CSS-->
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel = "stylesheet" href="../css/cv.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/cv.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
@@ -32,8 +32,6 @@
 </head>
 
 <!--Corps de la page-->
-
-
 
 <body>
 
@@ -54,11 +52,21 @@
         <spinning-dots class="dots large"></spinning-dots>
     </div>
 
-    <header><img class="logo-design" src="/assets/acceuil/iconeWebClean270822.png" /></header>
-
-    <div class="page_divider"></div>
 
     <div class="container" id="contenu">
+
+        <header>
+            <div class="header_img">
+                <img class="logo-design" src="/assets/acceuil/iconeWebClean270822.png" />
+            </div>
+            <div class="header_dark">
+                <!---------dark mode -------------->
+                <button class="switch_light">
+                    <i class="fas fa-lightbulb fa-lg"></i>
+                </button>
+            </div>
+        </header>
+
 
         <nav>
             <section class="header_logo">
@@ -77,26 +85,26 @@
                 <div class="nav-bar">
                     <ul>
                         <li>
-                            <a href="../index.html" class="active">Acceuil</a>
+                            <a href="/index.html">Acceuil</a>
                         </li>
 
                         <div class="portfolio">
-                            <button class="dropbtn">Design </br>Graphique
+                            <button class="dropbtn">Design Graphique
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Identité Visuelle</a>
+                                <a href="./portfolio/designGraphique.html">Identité Visuelle</a>
                                 <a href="#">Packaging</a>
                                 <a href="#">Services</a>
                             </div>
                         </div>
 
                         <div class="portfolio">
-                            <button class="dropbtn">Création <br> de site
+                            <button class="dropbtn">Création de site
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Création de site</a>
+                                <a href="./portfolio/codeur.html">Création de site</a>
                                 <a href="#">Création application</a>
                                 <a href="#">Services</a>
                             </div>
@@ -106,23 +114,21 @@
 
 
                         <li>
-                            <a href="../windows/cv.html">À propos</a>
+                            <a href="/windows/cv.html" class="active">À propos</a>
                         </li>
                         <li>
-                            <a href="../windows/contact.html">Contact</a>
+                            <a href="/windows/contact.html">Contact</a>
                         </li>
                     </ul>
 
                 </div>
 
 
-                <!---------dark mode -------------->
-                <button class="switch_light">
-                    <i class="fas fa-lightbulb fa-lg"></i>
-                </button>
+
             </section>
 
         </nav>
+
         <!---------------------------MAIN----------------------------------->
 
         <main class="main navbar-bg">
@@ -147,7 +153,7 @@
         <div id="sidebar" class="sidebar">
             <div class="repeating-linear4"></div>
             <img class="description_image" src="../assets/cv/autoabstrait.png" />
-            
+
         </div>
 
         <div id="content1" class="content1">
@@ -156,12 +162,12 @@
                 <p class="loisir_tag">Sport : </br>🏃‍♀️ courses, 🧗‍♀️ escalade, 🚴🏻‍♀️ vélo</p>
 
                 <p class="loisir_tag">🎨 Loisirs créatifs 🏯 Musées</p>
-                
+
                 <p class="loisir_tag">🥙 Foodculture 🍰 Tea Time </p>
-            </div>           
-        </div>        
-        
-        <div id= "content2" class="content2">
+            </div>
+        </div>
+
+        <div id="content2" class="content2">
             <div class="techno_model_graphic">
                 <h2 class="techno_model_font">Logiciels Graphique</h2>
                 <div class="techno_model_icone">
@@ -172,7 +178,7 @@
                     <!--icones design-->
                 </div>
             </div>
-        </div>       
+        </div>
 
         <div id="content3" class="content3">
             <div class="techno_model_front">
@@ -195,7 +201,7 @@
 
         <!----------FOOTER bas de page commun----------------------------->
 
-        <footer class="footer">            
+        <footer class="footer">
             <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
                 <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
                         href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
@@ -219,24 +225,24 @@
 
             <div class="info">
                 <div class="info_rights">
-                    <h3 class="info_rights"><b>©2022 Elodie Nebulot</b></h3>
+                    <h3 class="info_rights">©2022 Elodie Nebulot</h3>
                     <p class="info_aka">a.k.a</p>
-                    <h3><b>Visual For
-                            All</b></h3>
+                    <h3>Visual For
+                        All</h3>
                 </div>
-                <p class="info_rights"><b>. ALL RIGHTS RESERVED .</b></p>
+                <p class="info_rights">. ALL RIGHTS RESERVED .</p>
             </div>
 
         </footer>
     </div>
-    <a id="floating-btn" href="#contenu" rel="Retour au Menu">Retour au Menu</a> 
+    <a id="floating-btn" href="#contenu" rel="Retour au Menu">Retour au Menu</a>
+
+
 
     <!-------------------------SCRIPT JS ----------------------------------------->
     <!--loader element + spinner -->
     <script src="/main.js" type="module" defer></script>
-    
 
 </body>
-
 
 </html>
