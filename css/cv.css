@@ -1,5 +1,8 @@
-h2 {
+h2.techno_model_font {
   color: #3d5a5b;
+  font-size : 20px;
+  margin-top : 20px;
+
 }
 
 
@@ -18,23 +21,24 @@ h2 {
 
 /*main*/
 
-.top-post-description {
-  display: flex;
-  flex-direction: column;
+main {
+  display : flex;
+  flex-direction : column;
 }
 
-.repeating-linear3 {
-  display : flex;
-  border-radius : 10px;
-  margin : 30px 50px ;
-  height: 500px;
-  background: #f7f1ed ;
-  box-shadow: 12px 12px 2px 1px #0ae9bc;
+.main_top {
+  display: flex;
+}
+
+.description_container {
+  background-color : #f7f1ed;
+  box-shadow: 12px 12px 2px 1px #febeb0;
+  width : 80%;
+  margin-left : 50px;
 }
 
 .description_experience {
-  position : absolute;
-  font-family: "roseblue", sans serif;
+  font-family: "Aboreto", cursive, sans-serif;
   color:#2f365f;
   text-transform: none;
   font-size: 24px;
@@ -49,7 +53,6 @@ h2 {
 
 .sidebar {
   display : flex;
-  flex-direction : column;
 }
 
 .repeating-linear4 {
@@ -64,9 +67,7 @@ h2 {
     #3d5a5b 5px,
     #2f365f 5px,
     #3d5a5b 15px
-  );
-   
-    
+  );    
   }
 
 .description_image {
@@ -93,6 +94,10 @@ h2 {
 
 
 /*CONTENT*/
+.main_bottom {
+  display : flex;
+  margin-top : 50px; ;
+}
 
 h2 {
   font-size: 24px;
@@ -104,6 +109,7 @@ h2 {
   background : #f7f1ed;
   box-shadow: 12px 12px 2px 1px #3d5a5b;
   margin : 20px;
+  width : 30%;
 }
 
 #content1 {

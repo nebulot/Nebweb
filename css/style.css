@@ -193,7 +193,7 @@ nav {
 }
 
 .nav-bar ul li a:hover,
-.portfolio:hover .dropbtn {
+.dropbtn_folio:hover .dropbtn {
   transform: translate(-6px, -6px);
   color: #f7f1ed;
   background: #0ae9bc;
@@ -209,7 +209,7 @@ nav {
   color: #f7f1ed;
 }
 
-.portfolio {
+.dropbtn_folio {
   float: left;
   overflow: hidden;
   border-radius: 5px;
@@ -249,7 +249,7 @@ nav {
   background-color: #ddd;
 }
 
-.portfolio:hover .dropdown-content {
+.dropbtn_folio:hover .dropdown-content {
   display: block;
 }
 

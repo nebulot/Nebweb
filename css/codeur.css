@@ -1,7 +1,3 @@
-button, input, select {
-    margin: 0;
-  }
-
 main {
     margin : 0;
     flex-direction : column;
@@ -28,6 +24,7 @@ img, video {
   z-index: 2;
 }
 
+
 @media only screen and (max-width: 650px) {
   .container3 {
     grid-template-columns: 1fr;
@@ -40,16 +37,23 @@ img, video {
   }
 }
 
+.main-gallery{
+  display:flex;
+  flex-direction : column;
+}
+
 /*/////////portfolio//////*/
 .portfolio {
-  padding: 100px 20px 10px 20px;
+  
   max-width: 1440px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin: 30px auto;
+  display: grid;
+  justify-content: center;
+  grid-gap: 30px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 500px);
 }
+
 .portfolio__project {
   padding-bottom: 80px;
   max-width: 600px;
@@ -59,27 +63,27 @@ img, video {
   overflow: hidden;
 }
 .portfolio__project__type {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: right;
-  text-transform: uppercase;
+  font-size: 15px;
+  spacing-letter : 6px;
+  color : #f7f1ed;
+  display : flex;
+  justify-content: flex-end;  
 }
+
 .portfolio__project__titre {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  gap : 10px;
 }
-.portfolio__project__titre__nom {
-  font-family: Reckless, sans-serif;
-  font-size: 80px;
-  line-height: 96px;
+.portfolio__project__titre__nom, .portfolio__project__titre__num {
+  font-family: "Kumar One", sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+  spacing-letter : 6px;
 }
-.portfolio__project__titre__num {
-  font-family: Reckless, sans-serif;
-  font-size: 80px;
-  line-height: 96px;
-}
+
 .portfolio__project__button {
   display: flex;
   justify-content: center;
@@ -102,8 +106,8 @@ img, video {
 }
 
 .separator {
-  height: 1px;
-  background-color: #fffaf1;
+  height: 2px;
+  background-color: #f7f1ed;
 }
 
 /*///////////////BTN/////////////////////////*/
