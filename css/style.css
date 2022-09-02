@@ -328,13 +328,42 @@ main {
   margin-right:20%;
 }
 
-.name-design {
+.name-design, .name-design_statut {
   font-family: "Aboreto", cursive, sans-serif;
   font-size: 25px;
   color: #f7f1ed;
   letter-spacing: 6px;
   line-height: 1.6em;
 }
+
+.name-design_statut {
+  position : absolute;
+}
+
+.name-design_space {
+  font-family: "Aboreto", cursive, sans-serif;
+  letter-spacing: 6px;
+  line-height: 1.6em;
+  color : #0ae9bc;
+  font-size : 40px;
+  margin-left : 70%;
+  margin-top : 20px;
+}
+
+.name-designer {
+  font-family: "Aboreto", cursive, sans-serif;
+  font-size: 30px;
+  color: #f7f1ed;
+  letter-spacing: 6px;
+  line-height: 1.6em;
+  
+}
+
+.name-design_free {
+  display:flex;
+}
+
+
 
 .post-design {
   font-family: "Aboreto", cursive, sans-serif;
@@ -438,15 +467,6 @@ h1 {
   height: 100%;
 }
 
-.caption_title {
-  display : flex;
-  flex-direction: column;
-  position : absolute;
-  z-index : 3;
-  bottom : 42%;
-  
-}
-
 .image .details h2 {
   text-align: center;
   font-size: 35px;
@@ -485,6 +505,7 @@ h1 {
   background: #f7f1ed;
   width: 100%;
   display: flex;
+  flex-direction : column;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
@@ -511,7 +532,7 @@ h1 {
 
 .more .icon-links i {
   color: #000;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .more .icon-links a:not(:last-child) i {

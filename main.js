@@ -1,3 +1,6 @@
+
+/*///////////////////////Spinner loader////////////////////////*/
+
 class SpinningDots extends HTMLElement {
   //create svg with dot
 
@@ -144,6 +147,18 @@ const accueil = document.querySelector(".accueil");
 window.addEventListener('load', () => {
   accueil.classList.add('fondu-out');
 });
+
+/*///////////////////////navbar/////////////////////////////*/
+/*create hamburger */
+
+const hamburger = document.querySelector(".hamburger");
+hamburger.onclick = function() {
+    const navBar = document.querySelector(".nav-bar");
+    navBar.classList.toggle("active");
+}
+
+
+/*////////////////////////////////DARK MODE//////////////////////////////*/
 
 /* dark mode ////
 const toggleLight = document.querySelector('.switch__light');
