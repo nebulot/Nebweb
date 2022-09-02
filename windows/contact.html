@@ -19,10 +19,11 @@
     <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
 
 
-    <title>V4A/Acceuil</title>
+    <title>V4A/Contact</title>
 
     <!--styles CSS-->
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
@@ -130,75 +131,101 @@
         <!--MAIN-->
 
         <main class="main">
-            <div class="formulaire">
-                <h3 class="form-title" style="letter-spacing:6px;"> - Expliquez moi votre Projet -</h3>
-                <form class="contact_form" method="post" name="contact">
+            <section class="main_top">
+                <h1 class="top-post-sidebar">H e y !</h1>
+                <div id="sidebar">
+                    <div class="sidebar_left">
+                        <div class="repeating-linear"></div>
+                        <img class="description_top_id one" src="/assets/acceuil/selfie bleu.jpg" />
+                    </div>
+                    <div class="sidebar_right">
+                        <p class="top-post_bottom" style="letter-spacing:6px;">Pour toute demande, informations
+                            supplémentaires
+                            et/ou devis<br>Ecrivez-moi :)</p>
+                    </div>
+                </div>
 
-                    <div class="contact_form-container">
-                        <label class="contact_form-tag" for="nom">Nom Prénom</label>
-                        <input class="contact_form-input" type="text" name="nom" placeholder="Nom et prénom" />
+                <!-----------------------Formulaire de contact-------------------------->
+                <div class="formulaire">
+                    <h3 class="form-title" style="letter-spacing:6px;"> - Expliquez moi votre Projet -</h3>
+                    <form class="contact_form" method="post" name="contact">
+
+                        <div class="contact_form-box">
+                        <div class="contact_form-box1">
+                            <div class="contact_form-container">
+                                <label class="contact_form-tag" for="nom">Nom</label>
+                                <input class="contact_form-input" type="text" name="nom" placeholder="Nom" />
+                            </div>
+
+                            <div class="contact_form-container">
+                                <label class="contact_form-tag" for="email">Email</label>
+                                <input class="contact_form-input" type="email" name="email" placeholder="Votre email" />
+                            </div>
+                        </div>
+
+                        <div class="contact_form-box2">
+                            <div class="contact_form-container">
+                                <label class="contact_form-tag" for="nom">Prénom</label>
+                                <input class="contact_form-input" type="text" name="prénom" placeholder="Prénom" />
+                            </div>
+
+                            <div class="contact_form-container">
+                                <label class="contact_form-tag" for="telephone">Téléphone</label>
+                                <input class="contact_form-input" type="tel" name="tel" placeholder="Votre Téléphone" />
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="contact_form-container">
-                        <label class="contact_form-tag" for="email">Email</label>
-                        <input class="contact_form-input" type="email" name="email" placeholder="Votre email" />
-                    </div>
+                        <div class="contact_form-container">
+                            <label class="contact_form-tag" for="yoursubject">Objet de la demande</label>
+                            <input class="contact_form-input" type="text" name="projet" placeholder="Votre Projet" />
+                        </div>
 
-                    <div class="contact_form-container">
-                        <label class="contact_form-tag" for="telephone">Téléphone</label>
-                        <input class="contact_form-input" type="tel" name="tel" placeholder="Votre Téléphone" />
-                    </div>
+                        <div class="contact_form-container contact-area">
+                            <label class="contact_form-tag tag_projet" for="texte">Votre message</label>
+                            <textarea id="" class="contact_form-input" name="texte" cols="30" rows="10"
+                                placeholder="Votre message"></textarea>
+                        </div>
 
-                    <div class="contact_form-container">
-                        <label class="contact_form-tag" for="yoursubject">Objet de la demande</label>
-                        <input class="contact_form-input" type="text" name="projet" placeholder="Votre Projet" />
-                    </div>
+                        <a href="#" class="button_link"><span class="button_link-send">Envoyer</span></a>
+                    </form>
+                </div>
+            </section>
 
-                    <div class="contact_form-container contact-area">
-                        <label class="contact_form-tag tag_projet" for="texte">Votre message</label>
-                        <textarea id="" class="contact_form-input" name="texte" cols="30" rows="10"
-                            placeholder="Votre message"></textarea>
-                    </div>
+            <section class="main_bottom">
+                <div id="content1" class="contact_link">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h3>Linkedin</h3>
+                    <span>Elodie Nébulot</span>
+                    <a class="sqs-svg-icon--wrapper" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
+                        target="_blank">
+                        Ecrivez-moi
+                        <i class="fa-regular fa-timeline-arrow"></i>
+                    </a>
+                </div>
 
-                    <a href="#" class="button_link"><span class="button_link-send">Envoyer</span></a>
-                </form>
-            </div>
+                <div id="content2"><img class="ctn2_img" src="/assets/cv/icone2WebClean270822.png" /></div>
+
+                <div id="content3" class="contact_insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <span>@grain_de_foly</span>
+                    <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                        target="_blank">
+                        Ecrivez-moi
+                        <i class="fa-regular fa-timeline-arrow"></i>
+                    </a>
+                </div>
+            </section>
+
+
         </main>
 
-        <!-----------------------Formulaire de contact-------------------------->
 
-        <div id="sidebar">
-            <h1 class="top-post-sidebar">H e y !</h1>
-            <div class="repeating-linear"></div>
-            <img class="description_top_id one" src="../assets/acceuil/selfie bleu.jpg" />
-            <p class="top-post_bottom" style="letter-spacing:6px;">Pour toute demande, informations supplémentaires
-                et/ou devis<br>Ecrivez-moi :)</p>
 
-        </div>
 
-        <div id="content1" class="contact_link">
-            <i class="fa-brands fa-linkedin"></i>
-            <h3>Linkedin</h3>
-            <span>Elodie Nébulot</span>
-            <a class="contact_linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-                target="_blank">
-                Ecrivez-moi
-                <i class="fa-regular fa-timeline-arrow"></i>
-            </a>
-        </div>
 
-        <div id="content2"><img class="ctn2_img" src="../assets/acceuil/LOGO-SITE.png" /></div>
 
-        <div id="content3" class="contact_insta">
-            <i class="fa-brands fa-instagram"></i>
-            <h3>Instagram</h3>
-            <span>@grain_de_foly</span>
-            <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
-                target="_blank">
-                Ecrivez-moi 
-                <i class="fa-regular fa-timeline-arrow"></i>
-            </a>
-        </div>
 
 
 
