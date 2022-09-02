@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <!--En-tête de la page-->
+
+    <head>
+        <meta charset="utf-8" />
+        <!-- respecter la norme web internet explorer soit compatible-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!--balise meta viewport pour contrôler la mise en page sur mobile-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description"
+            content="bienvenue sur le site d'Elodie Nébulot, Designer Graphique et Développeur Front-End Junior." />
+        <meta name="keywords"
+            content="HTML5, CSS3, Javascript, Visual For All, Elodie Nebulot, web, front end, dev, design, designer graphique, numerique, digital, animation, front" />
+        <meta name="author" content="Elodie Nebulot" />
+
+        <!--fontawesome-->
+        <script src="https://kit.fontawesome.com/b012d5ddf3.js" crossorigin="anonymous"></script>
+
+
+        <title>V4A/Front-End</title>
+
+        <!--styles CSS-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/codeur.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+    </head>
+
+    <!--Corps de la page-->
+
+    <body>
+
+        <div class="accueil">
+            <div class="loader ">
+                <span class="letter">C</span>
+                <span class="letter">H</span>
+                <span class="letter">A</span>
+                <span class="letter">R</span>
+                <span class="letter">G</span>
+                <span class="letter">E</span>
+                <span class="letter">M</span>
+                <span class="letter">E</span>
+                <span class="letter">N</span>
+                <span class="letter">T</span>
+            </div>
+
+            <spinning-dots class="dots large"></spinning-dots>
+        </div>
+
+
+        <div class="container3" id="contenu">
+
+            <header>
+                <div class="header_img">
+                    <img class="logo-design" src="/assets/acceuil/iconeWebClean270822.png" />
+                </div>
+                <div class="header_dark">
+                    <!---------dark mode -------------->
+                    <button class="switch_light">
+                        <i class="fas fa-lightbulb fa-lg"></i>
+                    </button>
+                </div>
+            </header>
+
+
+            <nav>
+                <section class="header_logo">
+                    <img class="logo_brand" src="/assets/acceuil/brand220822.png" />
+
+                    <!--Responsibe Hamburger Navbar-->
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+
+
+                    <!-----------Navbar items-------->
+                    <div class="nav-bar">
+                        <ul>
+                            <li>
+                                <a href="/index.html">Acceuil</a>
+                            </li>
+
+                            <div class="portfolio">
+                                <button class="dropbtn">Design Graphique
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/windows/portfolio/designGraphique.html">Identité Visuelle</a>
+                                    <a href="#">Packaging</a>
+                                    <a href="#">Services</a>
+                                </div>
+                            </div>
+
+                            <div class="portfolio">
+                                <button class="dropbtn active">Création de site
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="active" href="/windows/portfolio/codeur.html">Création de site</a>
+                                    <a href="#">Création application</a>
+                                    <a href="#">Services</a>
+                                </div>
+                            </div>
+
+
+
+
+                            <li>
+                                <a href="/windows/cv.html">À propos</a>
+                            </li>
+                            <li>
+                                <a href="/windows/contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+            </nav>
+
+            <!--Contenu Projet gallery-->
+            <main id="projets">
+                <div class="portfolio">
+
+                    <div class="portfolio__project">
+                        <div class="portfolio__project__header">
+                            <div class="separator"></div>
+                            <div class="portfolio__project__type">HTML, CSS, JAVASCRIPT</div>
+                            <div class="portfolio__project__titre">
+                                <div class="portfolio__project__titre__num">01</div>
+                                <div class="portfolio__project__titre__nom ">TodoAPP</div>
+                            </div>
+                            <div class="reveal-text"></div>
+                        </div>
+                        <div class="portfolio__project__img">
+                            <img src="/assets/acceuil/fisheye.png" alt="Image de la todoApp">
+                            <div class="reveal-img"></div>
+                        </div>
+                        <div class="portfolio__project__button">
+                            <a href="https://mat2dr.github.io/todoAPP/" target="_blank"><button
+                                    class="call-btn-active btn">Voir le projet</button></a>
+                            <a href="https://github.com/Mat2dr/todoAPP" target="_blank"><button
+                                    class="call-btn btn">Voir le code</button></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__project">
+                        <div class="portfolio__project__header">
+                            <div class="separator"></div>
+                            <div class="portfolio__project__type">HTML, CSS, Javascript</div>
+                            <div class="portfolio__project__titre">
+                                <div class="portfolio__project__titre__num">02</div>
+                                <div class="portfolio__project__titre__nom ">GameOn</div>
+                            </div>
+                            <div class="reveal-text"></div>
+                        </div>
+                        <div class="portfolio__project__img">
+                            <img src="/assets/acceuil/fisheye.png" alt="Image de GameOn">
+                            <div class="reveal-img"></div>
+                        </div>
+                        <div class="portfolio__project__button">
+                            <a href="https://mat2dr.github.io/GameOn-website-FR/" target="_blank"><button
+                                    class="call-btn-active btn">Voir le projet</button></a>
+                            <a href="https://github.com/Mat2dr/GameOn-website-FR" target="_blank"><button
+                                    class="call-btn btn">Voir le code</button></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__project">
+                        <div class="portfolio__project__header">
+                            <div class="separator"></div>
+                            <div class="portfolio__project__type">HTML, CSS, SASS</div>
+                            <div class="portfolio__project__titre">
+                                <div class="portfolio__project__titre__num">03</div>
+                                <div class="portfolio__project__titre__nom ">Ohmyfood</div>
+                            </div>
+                            <div class="reveal-text"></div>
+                        </div>
+                        <div class="portfolio__project__img">
+                            <img src="/assets/acceuil/fisheye.png" alt="Image de Ohmyfood">
+                            <div class="reveal-img"></div>
+                        </div>
+                        <div class="portfolio__project__button">
+                            <a href="https://mat2dr.github.io/DragovicMathias_P3_30072021/" target="_blank"><button
+                                    class="call-btn-active btn">Voir le projet</button></a>
+                            <a href="https://github.com/Mat2dr/DragovicMathias_P3_30072021" target="_blank"><button
+                                    class="call-btn btn">Voir le code</button></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__project">
+                        <div class="portfolio__project__header">
+                            <div class="separator"></div>
+                            <div class="portfolio__project__type">HTML, CSS</div>
+                            <div class="portfolio__project__titre">
+                                <div class="portfolio__project__titre__num">04</div>
+                                <div class="portfolio__project__titre__nom ">Reservia</div>
+                            </div>
+                            <div class="reveal-text"></div>
+                        </div>
+                        <div class="portfolio__project__img">
+                            <img src="/assets/acceuil/fisheye.png" alt="Image de Reservia">
+                            <div class="reveal-img"></div>
+                        </div>
+                        <div class="portfolio__project__button">
+                            <a href="https://mat2dr.github.io/DragovicMathias_P2_01062021/" target="_blank"><button
+                                    class="call-btn-active btn">Voir le projet</button></a>
+                            <a href="https://github.com/Mat2dr/DragovicMathias_P2_01062021" target="_blank"><button
+                                    class="call-btn btn">Voir le code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-btn-more">
+                    <a href="./projects.html"><button class="btn-more"> Voir plus de réalisations </button></a>
+                </div>
+            </main>
+
+            <!----------FOOTER bas de page commun----------------------------->
+
+            <footer class="footer">
+                <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
+                    <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
+                            href="mailto:nebelodie@gmail.com">nebelodie@gmail.com</a>
+                    </span>
+
+                    <p class="barre">||</p>
+
+                    <div class="social_icon">
+
+
+                        <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                            target="_blank"><i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a class="sqs-svg-icon--wrapper linkedin"
+                            href="https://www.linkedin.com/in/nebulot-elodie-65012815a" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="info_rights">
+                        <h3 class="info_rights"><b>©2022 Elodie Nebulot</b></h3>
+                        <p class="info_aka">a.k.a</p>
+                        <h3><b>Visual For
+                                All</b></h3>
+                    </div>
+                    <p class="info_rights"><b>. ALL RIGHTS RESERVED .</b></p>
+                </div>
+
+            </footer>
+        </div>
+        <a id="floating-btn" href="#contenu" rel="Retour au Menu">Retour au Menu</a>
+
+
+
+        <!-------------------------SCRIPT JS ----------------------------------------->
+        <!--loader element + spinner -->
+        <script src="/main.js" type="module" defer></script>
+        <script src="/navbar.js" type="module"></script>
+
+
+
+    </body>
+
+    </html>

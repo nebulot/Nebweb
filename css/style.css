@@ -204,13 +204,13 @@ nav {
   border-radius: 5px;
 }
 
-.nav-bar ul li a.active {
-  color: #fefefe;
+.nav-bar ul li a.active, .dropbtn.active{
+  color: #f7f1ed;
   border-line: #0ae9bc;
 }
 
 .fa-lg {
-  color: #2f365f;
+  color: #f7f1ed;
 }
 
 .portfolio {
