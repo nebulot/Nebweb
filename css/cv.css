@@ -32,9 +32,8 @@ main {
 
 .description_container {
   background-color : #f7f1ed;
-  box-shadow: 12px 12px 2px 1px #febeb0;
-  width : 80%;
-  margin-left : 50px;
+  box-shadow: 12px 12px 2px 1px #3d5a5b;
+  margin : 17px;
 }
 
 .description_experience {
@@ -54,21 +53,6 @@ main {
 .sidebar {
   display : flex;
 }
-
-.repeating-linear4 {
-  display : flex;
-  margin-top: 40px;
-  width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    #3d5a5b 5px,
-    #2f365f 5px,
-    #3d5a5b 15px
-  );    
-  }
 
 .description_image {
   width: 25%;
@@ -110,12 +94,6 @@ h2 {
   box-shadow: 12px 12px 2px 1px #3d5a5b;
   margin : 20px;
   width : 30%;
-}
-
-.techno_model_graphic {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  margin-bottom: 20px;
 }
 
 .loisir_tag {
