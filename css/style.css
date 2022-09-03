@@ -325,27 +325,35 @@ main {
   margin-right: 20%;
 }
 
-.name-design,
-.name-design_statut {
+.name-design1, .name-design2 {
   font-family: "Aboreto", cursive, sans-serif;
-  font-size: 25px;
-  color: #f7f1ed;
+  font-size: 20px;
   letter-spacing: 6px;
-  line-height: 1.6em;
+  color: #f7f1ed;
+}
+
+.name-design2 {
+  padding-top : 18px;
 }
 
 .name-design_statut {
+  font-family: "Aboreto", cursive, sans-serif;
+  font-size: 30px;
+  color: #0ae9bc;
+  letter-spacing: 6px;
+  line-height: 1.6em;
   position: absolute;
 }
+
 
 .name-design_space {
   font-family: "Aboreto", cursive, sans-serif;
   letter-spacing: 6px;
   line-height: 1.6em;
-  color: #0ae9bc;
-  font-size: 40px;
-  margin-left: 70%;
-  margin-top: 20px;
+  color: #f7f1ed;
+  font-size: 20px;
+  margin-left: 80%;
+  margin-top: 30px;
 }
 
 .name-designer {
