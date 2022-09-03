@@ -214,7 +214,7 @@ a {
   text-transform:none;
 }
 
-span {
+span.link_contact {
   font-size : 10px;
   text-transform : none;
 }
