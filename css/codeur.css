@@ -9,34 +9,6 @@ img, video {
   }
 
 /*///////////////////////////container codeur ////////////////////////*/
-.container3 {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-row: 0.2fr 0.2fr 2.2fr 0.8fr;
-  grid-template-areas:
-    "header header header header"
-    "nav nav nav nav"
-    "main main main main"
-    "footer footer footer footer";
-  grid-gap: 0.5rem;
-  //padding : 15px 10px 15px 10px;
-  z-index: 2;
-}
-
-
-@media only screen and (max-width: 650px) {
-  .container3 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.4fr 2.2fr 1fr;
-    grid-template-areas:
-      "header"
-      "nav"
-      "main"
-      "footer";
-  }
-}
-
 .main-gallery{
   display:flex;
   flex-direction : column;
