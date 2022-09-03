@@ -769,7 +769,7 @@ a#floating-btn {
   .description_top_id {
     width: 20%;
     left: 8%;
-    top: 46%;
+    top: 76%;
   }
   .top-post-info {
     margin-right: 0;
@@ -783,5 +783,9 @@ a#floating-btn {
   }
   .hexagone {
     display: none;
+  }
+  #floating-btn {
+    font-size : 13px;
+    right : 2%;
   }
 }
