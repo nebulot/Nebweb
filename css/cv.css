@@ -48,12 +48,9 @@ main {
   line-height : 1.6rem;
 }
 
-/*sidebar*/
 
-.sidebar {
-  display : flex;
-}
 
+/*CONTENT*/
 .description_image {
   width: 25%;
   position: absolute;
@@ -72,12 +69,9 @@ main {
 
 .loisir_tag {
   padding : 5px 0;
-  font-size : 15px;
-  
+  font-size : 15px; 
 }
 
-
-/*CONTENT*/
 .main_bottom {
   display : flex;
   margin-top : 50px; ;
@@ -111,6 +105,19 @@ margin-left : 20px;
 
 .fa-brands {    
     padding : 10px:
+}
+
+@media screen and (min-width: 320px) and (max-width:  766px){
+  main {
+    margin : 30px 20px 0 20px;
+  }
+  .main_bottom {
+    flex-direction : column;
+    margin-top : 30px;
+  }
+  #content1, #content2, #content3 {
+    width : 93%;
+  }
 }
 
 @media only screen and (max-width: 625px) {
