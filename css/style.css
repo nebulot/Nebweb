@@ -19,7 +19,7 @@ body {
 /* loader page and spinner */
 
 .accueil {
-  display: flex;
+  display: none;
   background-position: center;
   justify-content: center;
   align-items: center;
