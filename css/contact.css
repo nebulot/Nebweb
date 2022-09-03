@@ -171,9 +171,9 @@ main {
   display : flex;
   align-items: flex-start;
   justify-content: center;
-  background: #2f365f;
+  background: #f7f1ed;
   border: 2px solid #f7f1ed;
-  box-shadow: 7px 8px 0px 0px #0ae9bc;
+  box-shadow: 7px 8px 0px 0px #3d5a5b;
   padding: 20px;
   width : 40%;
 }
@@ -190,7 +190,7 @@ main {
   align-items: center;
   line-height: 2;
   padding: 10px;
-  color: #f7f1ed;
+  color: #3d5a5b;
   font-size: 15px;
   letter-spacing: 6px;
 }
@@ -206,12 +206,13 @@ main {
 }
 a {
   text-decoration : none;
-  color : #f7f1ed;
+  
 }
 
 .sqs-svg-icon--wrapper {
   font-size : 15px;
   text-transform:none;
+  color : #3d5a5b;
 }
 
 span.link_contact {

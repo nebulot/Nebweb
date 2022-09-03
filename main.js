@@ -1,3 +1,14 @@
+/*///////////////////////navbar/////////////////////////////*/
+/*hamburger */
+const hamburger = document.querySelector("#hamburger");
+hamburger.onclick = () => {
+  hamburger.classList.toggle("open");
+  const navBar = document.querySelector("#nav_bar");
+    navBar.classList.toggle("slide");
+    
+}
+
+
 
 /*///////////////////////Spinner loader////////////////////////*/
 
@@ -148,14 +159,7 @@ window.addEventListener('load', () => {
   accueil.classList.add('fondu-out');
 });
 
-/*///////////////////////navbar/////////////////////////////*/
-/*create hamburger */
 
-const hamburger = document.querySelector(".hamburger");
-hamburger.onclick = function() {
-    const navBar = document.querySelector(".nav-bar");
-    navBar.classList.toggle("active");
-}
 
 
 /*////////////////////////////////DARK MODE//////////////////////////////*/
