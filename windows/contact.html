@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--balise meta viewport pour contrôler la mise en page sur mobile-->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="/assets/acceuil/favicon--1.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/acceuil/favicon--1.png" />
     <meta name="description"
         content="bienvenue sur le site d'Elodie Nébulot, Designer Graphique et Développeur Front-End Junior." />
     <meta name="keywords"
@@ -150,30 +150,32 @@
                     <form class="contact_form" method="post" name="contact">
 
                         <div class="contact_form-box">
-                        <div class="contact_form-box1">
-                            <div class="contact_form-container">
-                                <label class="contact_form-tag" for="nom">Nom</label>
-                                <input class="contact_form-input" type="text" name="nom" placeholder="Nom" />
+                            <div class="contact_form-box1">
+                                <div class="contact_form-container">
+                                    <label class="contact_form-tag" for="nom">Nom</label>
+                                    <input class="contact_form-input" type="text" name="nom" placeholder="Nom" />
+                                </div>
+
+                                <div class="contact_form-container">
+                                    <label class="contact_form-tag" for="email">Email</label>
+                                    <input class="contact_form-input" type="email" name="email"
+                                        placeholder="Votre email" />
+                                </div>
                             </div>
 
-                            <div class="contact_form-container">
-                                <label class="contact_form-tag" for="email">Email</label>
-                                <input class="contact_form-input" type="email" name="email" placeholder="Votre email" />
+                            <div class="contact_form-box2">
+                                <div class="contact_form-container">
+                                    <label class="contact_form-tag" for="nom">Prénom</label>
+                                    <input class="contact_form-input" type="text" name="prénom" placeholder="Prénom" />
+                                </div>
+
+                                <div class="contact_form-container">
+                                    <label class="contact_form-tag" for="telephone">Téléphone</label>
+                                    <input class="contact_form-input" type="tel" name="tel"
+                                        placeholder="Votre Téléphone" />
+                                </div>
                             </div>
                         </div>
-
-                        <div class="contact_form-box2">
-                            <div class="contact_form-container">
-                                <label class="contact_form-tag" for="nom">Prénom</label>
-                                <input class="contact_form-input" type="text" name="prénom" placeholder="Prénom" />
-                            </div>
-
-                            <div class="contact_form-container">
-                                <label class="contact_form-tag" for="telephone">Téléphone</label>
-                                <input class="contact_form-input" type="tel" name="tel" placeholder="Votre Téléphone" />
-                            </div>
-                        </div>
-                    </div>
 
                         <div class="contact_form-container">
                             <label class="contact_form-tag" for="yoursubject">Objet de la demande</label>
@@ -193,15 +195,15 @@
 
             <section class="main_bottom">
                 <div id="content1" class="contact_link">
-                    <span class="link_contact">Retrouvez moi sur</span></br>              
+                    <span class="link_contact">Retrouvez moi sur</span></br>
                     <h3>Linkedin</h3>
                     <i class="fa-brands fa-linkedin"></i>
-                    <a class="sqs-svg-icon--wrapper" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
-                    target="_blank">Elodie Nébulot
-                    
-                    <i class="fa-regular fa-timeline-arrow"></i>
-                </a>  
-                    
+                    <a class="linkedin" href="https://www.linkedin.com/in/nebulot-elodie-65012815a"
+                        target="_blank">Elodie Nébulot
+
+                        <i class="fa-regular fa-timeline-arrow"></i>
+                    </a>
+
                 </div>
 
                 <div id="content2"><img class="ctn2_img" src="../assets/cv/icone2WebClean270822.png" /></div>
@@ -210,9 +212,9 @@
                     <span class="link_contact">Suivez-moi sur</span></br>
                     <h3>Instagram</h3>
                     <i class="fa-brands fa-instagram"></i>
-                    <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                    <a class="instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
                         target="_blank">
-                        @grain_de_foly                        
+                        @grain_de_foly
                         <i class="fa-regular fa-timeline-arrow"></i>
                     </a>
                 </div>
@@ -221,20 +223,9 @@
 
         </main>
 
-
-
-
-
-
-
-
-
-
         <!----------FOOTER bas de page commun----------------------------->
 
         <footer class="footer">
-            <div class="page_divider"></div>
-
             <div id="socialLinks" class="social-links" data-content-field="connected-accounts">
                 <span class="mail-bar" style="letter-spacing:6px;" target="_blank"><a class="mail"
                         href="mailto:visualforall.fr@gmail.com">visualforall.fr@gmail.com</a>
@@ -245,13 +236,12 @@
                 <div class="social_icon">
 
 
-                    <a class="sqs-svg-icon--wrapper instagram" href="https://www.instagram.com/grain_de_foly/?hl=fr"
+                    <a class="sqs-svg-icon--wrapper" href="https://www.instagram.com/grain_de_foly/?hl=fr"
                         target="_blank"><i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a class="sqs-svg-icon--wrapper linkedin"
-                        href="https://www.linkedin.com/in/nebulotelodie/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i>
+                    <a class="sqs-svg-icon--wrapper" href="https://www.linkedin.com/in/nebulotelodie/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>
@@ -270,10 +260,7 @@
 
     <!-------------------------SCRIPT JS ----------------------------------------->
     <!--loader element + spinner -->
-    <script src="../main.js" type="module" defer></script>
-    
-
-
+    <script src="/main.js" type="module" defer></script>
 
 </body>
 

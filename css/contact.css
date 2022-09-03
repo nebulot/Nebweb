@@ -50,6 +50,29 @@ main {
   flex-direction: column;
 }
 
+@media screen and (min-width: 320px) and (max-width:  766px){
+  main {
+    margin : 0 20px;
+  }
+  
+  .main_top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #sidebar {
+    width : 100%;
+  }
+
+  .top-post-sidebar, .sidebar_left {
+    display : none;
+  }
+  .top-post_bottom {
+    margin : 10px 30px;
+    align-items : center;
+  }
+}
+
 /*///////////////////FORMULAIRE//////////////*/
 .formulaire {
   margin-top : 30px;
@@ -159,6 +182,9 @@ main {
   color: #f7f1ed;
   background: #0ae9bc;
 }
+
+
+
 /*///////////////////CONTENT //////////////*/
 .main_bottom {
   display: flex;
@@ -201,22 +227,45 @@ main {
 }
 
 /*///////////////////FOOTER MODIF//////////////*/
-#socialLinks {
-  display: none;
-}
 a {
   text-decoration : none;
-  
 }
 
-.sqs-svg-icon--wrapper {
+.linkedin, .instagram {
   font-size : 15px;
   text-transform:none;
   color : #3d5a5b;
 }
 
+
 span.link_contact {
   font-size : 10px;
   text-transform : none;
+}
+
+@media screen and (min-width: 320px) and (max-width:  766px){
+  .form-title {
+    font-size : 17px;
+  }
+  .contact_form-box {
+    flex-direction : column;
+    }
+  .contact_form-box1, .contact_form-box2 {
+    width : 100%;
+  }
+  .main_bottom {
+    gap : 20px;
+  }
+  #content1, #content3 {
+    padding : 10px;
+    width : 50%;
+  }
+  h3, .linkedin, .instagram {
+    font-size : 12px;
+  }
+  #content2 {
+    position : absolute;
+  }
+  
 }
 
