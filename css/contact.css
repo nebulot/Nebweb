@@ -94,6 +94,7 @@ main {
   position: absolute;
   bottom: 3.75rem;
   color: #f7f1ed;
+  text-transform: none;
 }
 
 .contact_form-input {
@@ -210,4 +211,11 @@ a {
 
 .sqs-svg-icon--wrapper {
   font-size : 15px;
+  text-transform:none;
 }
+
+span {
+  font-size : 10px;
+  text-transform : none;
+}
+
