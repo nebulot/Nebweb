@@ -579,12 +579,14 @@ h1 {
 }
 
 .more-title {
-  font-size: 20px;
+  font-size: 16px;
   color: #3d5a5b;
+  text-transform : none;
 }
 .more-statut {
-  font-size: 15px;
+  font-size: 12px;
   color: #3d5a5b;
+  text-transform : none;
 }
 
 .image:hover .more {
