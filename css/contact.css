@@ -8,12 +8,13 @@ main {
 }
 
 .top-post-sidebar {
-  font-size: 90px;
+  font-size: 60px;
   color: #0ae9bc;
   text-shadow: 0.1em 0.1em #2f365f;
   margin: 30px 0;
   position: absolute;
-  left: 10%;
+  left: 20%;
+  
 }
 
 .description_top_id {
@@ -50,6 +51,17 @@ main {
   flex-direction: column;
 }
 
+@media screen and (min-width: 767px) and (max-width : 1000px) {
+  .top-post-sidebar {
+    left : 7%;
+    bottom : 110px;
+  }
+
+  .top-post_bottom {
+    font-size : 15px;
+    margin : 80px 20px;
+  }
+}
 @media screen and (min-width: 320px) and (max-width:  766px){
   main {
     margin : 0 20px;
