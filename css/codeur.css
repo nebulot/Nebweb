@@ -54,6 +54,7 @@ img, video {
   font-size: 30px;
   line-height: 60px;
   spacing-letter : 6px;
+  color : #0ae9bc;
 }
 
 .portfolio__project__button {
@@ -85,96 +86,67 @@ img, video {
 /*///////////////BTN/////////////////////////*/
 
 .call-btn-active {
-  padding: 12px 32px;
-  border: 1px solid #fffaf1;
-  background-color: #fffaf1;
-  border-radius: 2px;
-  font-weight: 600;
-  font-size: 16px;
-  -webkit-perspective-origin: 0% 50%;
-  perspective-origin: 0% 50%;
-  -webkit-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  font-weight: 600;
-  font-size: 16px;
-  color: black;
+    display: inline-block;
+    text-align: center;
+    background-color: #3d5a5b;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    cursor: pointer;
+   
+  }
+
+.call-btn-active .call-btn-active-send {
+  display: inline-block;
+  background: #2f365f;
+  color: #f7f1ed;
+  border: 1px solid #f7f1ed;
+  padding: 18px;
+  border-radius: 0.75rem;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 400;
   cursor: pointer;
+  transition: transform 0.15s ease-out, color 0.15s ease-out,
+    background-color 0.15s ease-out;
 }
 
-.call-btn:hover {
-    background-color: #fffaf1;
-    -webkit-perspective-origin: 0% 50%;
-    perspective-origin: 0% 50%;
-    -webkit-transform-origin: 0% 50%;
-    -ms-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    font-weight: 600;
-    font-size: 16px;
-    color: black;
-    cursor: pointer;
-  }
-  .call-btn:hover a {
-    color: black;
-  }
-  
-  .call-btn-active {
-    padding: 12px 32px;
-    border: 1px solid #fffaf1;
-    background-color: #fffaf1;
-    border-radius: 2px;
-    font-weight: 600;
-    font-size: 16px;
-    -webkit-perspective-origin: 0% 50%;
-    perspective-origin: 0% 50%;
-    -webkit-transform-origin: 0% 50%;
-    -ms-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    font-weight: 600;
-    font-size: 16px;
-    color: black;
-    cursor: pointer;
-  }
-  .call-btn-active a {
-    color: black;
-  }
-  
-  .call-btn-active:hover {
-    border: 1px solid #fffaf1;
-    background-color: #1d1d1d;
-    -webkit-perspective-origin: 0% 50%;
-    perspective-origin: 0% 50%;
-    -webkit-transform-origin: 0% 50%;
-    -ms-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    color: white;
-    cursor: pointer;
-  }
+.call-btn-active:hover .call-btn-active-send {
+  transform: translate(-6px, -6px);
+  color: #f7f1ed;
+  background: #0ae9bc;
+}
 
 .call-btn {
-  padding: 12px 32px;
-  border: 1px solid #fffaf1;
-  border-radius: 2px;
-  background-color: #1d1d1d;
-  -webkit-perspective-origin: 0% 50%;
-  perspective-origin: 0% 50%;
-  -webkit-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
+  display: inline-block;
+  text-align: center;
+  background-color: #0ae9bc;
+  border-radius: 0.75rem;
+  text-decoration: none;
   cursor: pointer;
+  
+
+}
+
+.call-btn .call-btn-send {
+  display: inline-block;
+  background: #f7f1ed;
+  color: #2f365f;
+  border: 1px solid #2f365f;
+  padding: 18px;
+  border-radius: 0.75rem;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: transform 0.15s ease-out, color 0.15s ease-out,
+    background-color 0.15s ease-out;
+
+}
+
+.call-btn:hover .call-btn-send {
+  transform: translate(-6px, -6px);
+  color: #f7f1ed;
+  background: #ff93c7;
 }
 
 .btn-more {
