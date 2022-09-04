@@ -166,7 +166,7 @@ main {
   display: inline-block;
   background: #2f365f;
   color: #f7f1ed;
-  border: 1px solid #f7f1ed;
+  border: 3px solid #f7f1ed;
   padding: 18px;
   border-radius: 0.75rem;
   letter-spacing: 6px;

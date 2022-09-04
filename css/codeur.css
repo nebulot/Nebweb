@@ -99,7 +99,7 @@ img, video {
   display: inline-block;
   background: #2f365f;
   color: #f7f1ed;
-  border: 1px solid #f7f1ed;
+  border: 3px solid #f7f1ed;
   padding: 18px;
   border-radius: 0.75rem;
   letter-spacing: 2px;
@@ -131,7 +131,7 @@ img, video {
   display: inline-block;
   background: #f7f1ed;
   color: #2f365f;
-  border: 1px solid #2f365f;
+  border: 3px solid #2f365f;
   padding: 18px;
   border-radius: 0.75rem;
   letter-spacing: 2px;
@@ -152,7 +152,7 @@ img, video {
 .btn-more {
     max-width: 400px;
     padding: 30px 32px;
-    border: 1px solid #fffaf1;
+    border: 3px solid #fffaf1;
     border-radius: 2px;
     background-color: #1d1d1d;
     -webkit-perspective-origin: 0% 50%;
@@ -187,3 +187,4 @@ img, video {
   .btn-more:hover a {
     color: black;
   }
+
