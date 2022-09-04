@@ -28,19 +28,21 @@ main {
 
 .main_top {
   display: flex;
+  background-color: #f7f1ed;
+    box-shadow: 12px 12px 2px 1px #3d5a5b;
+    margin: 17px;
+    justify-content: space-between;
 }
 
 .description_container {
-  background-color : #f7f1ed;
-  box-shadow: 12px 12px 2px 1px #3d5a5b;
-  margin : 17px;
+  width : 70%;
 }
 
 .description_experience {
   font-family: "Aboreto", cursive, sans-serif;
   color:#2f365f;
   text-transform: none;
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 5px;
   text-align: center;
   padding: 30px;
@@ -52,11 +54,12 @@ main {
 
 /*CONTENT*/
 .description_image {
-  width: 25%;
-  position: absolute;
-  top: 47%;
-  left: 40px;
-  
+  width: 38%;
+  display : flex;
+  max-height: 600px;
+  margin-top : 7%;
+  margin-left : 30px;
+  object-fit : cover;
 }
 
 .description_loisir {
@@ -111,9 +114,26 @@ margin-left : 20px;
     padding : 10px:
 }
 
+@media screen and (min-width : 992px) and (max-width : 1138px){
+  .description_image {
+    max-height : 470px;
+    margin-top : 24%;
+  }
+}
+
 @media screen and (min-width : 767px) and (max-width: 991px){
   h2.font2 {
     margin-bottom : 25px;
+  }
+
+  .description_image {
+    max-height : 382px;
+    margin-top : 24%;
+    width : 30%;
+  }
+
+  .description_experience {
+    margin : 30px;
   }
 }
 
@@ -121,6 +141,16 @@ margin-left : 20px;
   main {
     margin : 30px 20px 0 20px;
   }
+  .main_top {
+    flex-direction : column; 
+  }
+
+  .description_image {
+    max-height : 600px;
+    margin-top : 24%;
+    width : 30%;
+  }
+
   .main_bottom {
     flex-direction : column;
     margin-top : 30px;
