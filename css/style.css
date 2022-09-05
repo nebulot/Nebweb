@@ -136,11 +136,12 @@ nav {
   background: linear-gradient(to left, #f7f1ed, #febeb0, #3d5a5b, #2f365f);
 }
 
-.header_logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.navbar {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-around;
 }
+
 
 .logo_brand {
   object-fit: cover;
@@ -154,15 +155,17 @@ nav {
   flex-direction: column;
   cursor: pointer;
   padding: 5px;
-  transition: all 0.5s ease;
+  margin-top : 6px;
+  //transition: all 0.5s ease;
 }
 
-.line {
-  display: block;
+
+
+.line { 
   width: 35px;
   height: 4px;
   margin: 3px 0;
-  transition: all 0.3s ease;
+  transition: all 0.7s;
   background: #0ae9bc;
   border-radius: 5px;
 }
@@ -185,7 +188,12 @@ nav {
   transform: translateY(-370%) rotate(45deg);
 }
 
-.nav-bar ul {
+.noScroll {
+  /*empeche le scroll sur le body via JS*/
+  overflow: hidden;
+}
+
+.nav-bar {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -193,7 +201,7 @@ nav {
   margin-right: 20px;
 }
 
-.nav-bar ul li a {
+.nav-bar li a {
   display: inline-block;
   color: #2f365f;
   font-size: 18px;
@@ -204,14 +212,14 @@ nav {
     background-color 0.15s ease-out;
 }
 
-.nav-bar ul li a:hover,
+.nav-bar li a:hover,
 .dropbtn_folio:hover .dropbtn {
   transform: translate(-6px, -6px);
   color: #f7f1ed;
   background: #0ae9bc;
 }
 
-.nav-bar ul li a.active,
+.nav-bar li a.active,
 .dropbtn.active {
   color: #f7f1ed;
 }
@@ -664,20 +672,27 @@ a#floating-btn {
 
 @media screen and (min-width : 767px) and (max-width: 1114px) {
   .logo_brand {
-    max-width: 150px;
+    max-width: 190px;
   }
-  .nav-bar ul {
+  .nav-bar {
     margin-left : 30px;
     gap : 10px;
   }
-  .nav-bar ul li a, .dropbtn {
+  .nav-bar li a, .dropbtn {
     font-size : 12px;
+  }
+  .dropbtn {
+    padding : 0;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width:  766px){
   main {
     flex-direction : column;
+  }
+
+  .logo_brand {
+    max-width: 190px;
   }
 
   .hexagone,  .repeating-linear2{
@@ -708,16 +723,14 @@ a#floating-btn {
 
   .hamburger {
     display: flex;
-    position: absolute;
-    right: 20px;
+    margin-right: 20px;
   }
 
-  .nav-bar ul {
-    position: absolute;
-    z-index: 7;
-    top: 251px;
+  .nav-bar {
+    position: fixed;
+    top: 157px;
     left: -100%;
-    width: 106%;
+    width: 100%;
     height: 60%;
     flex-direction: column;
     -webkit-backdrop-filter: blur(4px);
@@ -725,21 +738,16 @@ a#floating-btn {
     background-color: rgba(61, 90, 91, 0.4);
     transition: transform 0.5s ease-out;
   }
-  .slide {
-    transform: translate (100%);
+
+  .nav-bar li, .dropbtn {
+    padding-top : 20px;
   }
-  .nav-bar ul li a {
-    justify-content: left;
-    padding-left: 5px;
-    width: 100%;
-    border-bottom: 1px solid rgba(192, 127, 6, 0.2);
-  }
-  .nav-bar ul li a:hover,
+  
+  .nav-bar li a:hover,
   .dropbtn_folio:hover,
   .dropbtn:hover {
     border-radius: 0;
-    transform: none;
-    border-radius: none;
+    transform : none;
   }
   .dropbtn,
   .dropbtn_folio,
@@ -749,6 +757,11 @@ a#floating-btn {
   .fa-caret-down {
     transform: rotate(-90deg);
   }
+
+  .slide {
+    transform: translate(100%);
+  }
+
   .social-links {
     flex-direction : column;
     margin : 0 10px;

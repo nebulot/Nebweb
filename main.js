@@ -1,11 +1,11 @@
 /*///////////////////////navbar/////////////////////////////*/
 /*hamburger */
-const hamburger = document.querySelector("#hamburger");
+const hamburger = document.getElementById("hamburger");
 hamburger.onclick = () => {
   hamburger.classList.toggle("open");
-  const navBar = document.querySelector("#nav_bar");
-    navBar.classList.toggle("slide");
-    
+  const navbar = document.getElementById("nav_bar");
+    navbar.classList.toggle("slide");  
+  document.body.classList.toggle("noScroll");
 }
 
 
