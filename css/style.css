@@ -521,13 +521,13 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  bottom: -90px;
+  bottom: -120px;
   transition: 0.6s;
   transition-property: bottom;
 }
 
 .more-title {
-  font-size: 16px;
+  font-size: 14px;
   color: #3d5a5b;
   text-transform : none;
 }
@@ -544,14 +544,11 @@ h1 {
 .more .read-more {
   color: #3d5a5b;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.more .read-more span {
-  font-weight: 900;
-}
 
 /*/////////////footer////////////*/
 footer {
