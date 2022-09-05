@@ -684,6 +684,17 @@ a#floating-btn {
   .dropbtn {
     padding : 0;
   }
+  .top-post-info {
+    margin-left: 20%;
+  }
+  .repeating-linear2 {
+    bottom : 10%;
+
+  }
+  .hexagone {
+    bottom: 5%;
+    right: 106px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width:  766px){
@@ -701,6 +712,10 @@ a#floating-btn {
   .name-designer, .name-design_statut {
     font-size : 20px;
     letter-spacing : 3px;
+  }
+
+  .top-post-info {
+    margin-left: 5%;
   }
   
   .description_top_id{
@@ -727,9 +742,10 @@ a#floating-btn {
   }
 
   .nav-bar {
-    position: fixed;
-    top: 157px;
-    left: -100%;
+    position: absolute;
+    z-index : 5;
+    top: 273px;
+    left: -113%;
     width: 100%;
     height: 60%;
     flex-direction: column;

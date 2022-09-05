@@ -45,10 +45,12 @@ h1 {
     width: 100%;
 	height: 300px;
     object-fit: cover;
+	
 }
 
 .image:hover img{
 	opacity: 1;
+	
 }
 
 .image .details{
