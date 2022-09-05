@@ -80,7 +80,7 @@ main {
     display : none;
   }
   .top-post_bottom {
-    margin : 10px 30px;
+    margin: 10px 69px;
     align-items : center;
   }
 }
@@ -207,7 +207,6 @@ main {
 #content1,
 #content3 {
   display : flex;
-  align-items: flex-start;
   justify-content: center;
   background: #f7f1ed;
   border: 2px solid #f7f1ed;
@@ -251,8 +250,9 @@ a {
 
 
 span.link_contact {
-  font-size : 10px;
+  font-size : 15px;
   text-transform : none;
+  padding-left: 12px;
 }
 
 @media screen and (min-width: 320px) and (max-width:  766px){
@@ -267,16 +267,19 @@ span.link_contact {
   }
   .main_bottom {
     gap : 20px;
+    flex-direction : column;
+    align-items : center;
   }
   #content1, #content3 {
     padding : 10px;
-    width : 50%;
+    
   }
   h3, .linkedin, .instagram {
     font-size : 12px;
   }
-  #content2 {
-    position : absolute;
+  
+  .linkedin:hover, .instagram:hover {
+    color : #0ae9bc;
   }
   
 }

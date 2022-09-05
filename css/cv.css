@@ -143,12 +143,22 @@ margin-left : 20px;
   }
   .main_top {
     flex-direction : column; 
+    align-items : center;
   }
 
   .description_image {
-    max-height : 600px;
-    margin-top : 24%;
-    width : 30%;
+    max-height: 600px;
+    margin-top: 10%;
+    width: 54%;
+  }
+.description_container {
+  width : 100%;
+}
+  .description_experience {
+    margin : 20px 5px;
+    padding : 0;
+    font-size: 9px;
+    letter-spacing: 3px;
   }
 
   .main_bottom {
